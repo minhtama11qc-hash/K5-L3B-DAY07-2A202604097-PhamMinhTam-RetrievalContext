@@ -1,0 +1,949 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "What does the textbook call a patient's ability to restore their psychological balance after it has been disrupted?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p003:c008",
+        "page": 3,
+        "section": "1.1",
+        "score": 0.590267,
+        "hit": true,
+        "text": "The patient's ability to institute, maintain, and regain psychological homeostasis when this homeostasis is disrupted for one reason or another is called coping strategy. There are many ways in which a nurse can assess how a patient is coping with their altered functioning, including the following:\n"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p003:c007",
+        "page": 3,
+        "section": "1.1",
+        "score": 0.523708,
+        "hit": false,
+        "text": "Facilitating Coping with Altered Function One of the nurse's roles is to care for patients and help them and their families adapt to temporary and permanent life changes (Burke, 2023b). Examples include changes in the patients' physical and mental functioning, both short and long term. Illness or in"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p004:c000",
+        "page": 4,
+        "section": "1.1",
+        "score": 0.479613,
+        "hit": false,
+        "text": "• Identifying situations that may necessitate role changes for a patient (e.g., spouse with chronic illness or death of parent).\n• Providing support to the patient with unexpected altered body image (e.g., trauma-related limb amputation).\n• Evaluating the constructive use of defense mechanisms by a "
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p008:c004",
+        "page": 8,
+        "section": "1.2",
+        "score": 0.472678,
+        "hit": false,
+        "text": "Adaptation Theory Roy's adaptation model, developed by nursing theorist Sister Callista Roy, is a conceptual framework based on the belief that individuals strive to maintain balance and achieve a state of equilibrium in response to changes in their internal and external environments, and aims to pr"
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p008:c005",
+        "page": 8,
+        "section": "1.2",
+        "score": 0.446489,
+        "hit": false,
+        "text": "Roy's model proposes four major adaptive modes: physiological, self-concept, role function, and interdependence. These adaptive modes represent different aspects of an individual's life and are interconnected (Figure 1.4). The model also highlights the importance of coping strategy mechanisms and th"
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p007:c002",
+        "page": 7,
+        "section": "1.1",
+        "score": 0.437379,
+        "hit": false,
+        "text": "Throughout the responding phase, nurses continually assess the patient's response to the interventions and make necessary adjustments or modifications to the plan of care. They monitor the patient's condition, evaluate the effectiveness of the interventions, and document the outcomes and any changes"
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p008:c006",
+        "page": 8,
+        "section": "1.2",
+        "score": 0.432397,
+        "hit": false,
+        "text": "Nurses using Roy's adaptation model assess individuals' adaptive responses, identify stimuli that may disrupt adaptation, and intervene to promote adaptation. Interventions may include modifying the environment, providing education and support, or assisting individuals in developing effective coping"
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p037:c007",
+        "page": 37,
+        "section": "2.2",
+        "score": 0.425009,
+        "hit": false,
+        "text": "Picture this: a patient walks into a hospital or clinic, feeling vulnerable and uncertain about what lies ahead. Suddenly, the patient is greeted by a team of healthcare providers who prioritize their unique needs, preferences, and values above all else. They listen attentively to the patient's conc"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p003:c005",
+        "page": 3,
+        "section": "1.1",
+        "score": 0.414272,
+        "hit": false,
+        "text": "Restoring Health The nurse's role in restoring health is to provide care and support to patients experiencing illness or injury (Burke, 2023a). Nurses play a vital part in facilitating the healing process and helping patients regain optimal health and well-being. They bring together their clinical e"
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p006:c005",
+        "page": 6,
+        "section": "1.1",
+        "score": 0.410338,
+        "hit": false,
+        "text": "Responding The responding component of Tanner's clinical judgment measurement model (CJMM) involves the nurse's ability to develop and implement appropriate actions or interventions based on the interpretation of the collected data and the identified patient needs (Mann, 2018). During the responding"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p003:c008",
+      "openstax-clinical-nursing-skills:para800:p003:c007",
+      "openstax-clinical-nursing-skills:para800:p004:c000",
+      "openstax-clinical-nursing-skills:para800:p004:c001"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 2960,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 1,
+    "rr10": 1.0,
+    "context_hit": true,
+    "latency_ms": 50.9
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "Which groups are given as examples of at-risk populations in nursing research?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p015:c000",
+        "page": 15,
+        "section": "1.2",
+        "score": 0.689233,
+        "hit": true,
+        "text": "ethical principles are upheld, participants' rights are protected, and potential risks are minimized.\n• At-risk populations: Special considerations must be given when conducting research involving at-risk populations. The term at-risk population refers to a group of individuals who are at higher ris"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p014:c000",
+        "page": 14,
+        "section": "1.2",
+        "score": 0.599448,
+        "hit": false,
+        "text": "Evolution of Nursing Research"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p029:c000",
+        "page": 29,
+        "section": "2.0",
+        "score": 0.528709,
+        "hit": false,
+        "text": "CHAPTER 2 The Evolution of the Nurse's Role\n\nFIGURE 2.1 This large group of Black Cross Nurses are parading through Harlem in 1922 in support of the Universal Negro Improvement Association in an example of nursing professional development and self-advocacy. (credit: \"Unia-nurses 1922corbis.jpg\" by U"
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p003:c004",
+        "page": 3,
+        "section": "1.1",
+        "score": 0.511765,
+        "hit": false,
+        "text": "By actively engaging in illness prevention, nurses contribute to reducing the incidence of preventable diseases and improving overall population health."
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p014:c007",
+        "page": 14,
+        "section": "1.2",
+        "score": 0.508832,
+        "hit": false,
+        "text": "Confidentiality allows individuals to share sensitive information without fear of it being disclosed to unauthorized individuals.\n• Beneficence and nonmaleficence: Nursing researchers have an ethical obligation to promote the well-being of participants (beneficence) and minimize any potential harm ("
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p032:c005",
+        "page": 32,
+        "section": "2.1",
+        "score": 0.503396,
+        "hit": false,
+        "text": "Specialization of Nursing Roles Advancements in technology and medical science have spurred the development of specialized areas of nursing. The trend toward specialization has allowed nurses to develop expertise in specific patient populations and healthcare settings. For example, some nurses work "
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p017:c000",
+        "page": 17,
+        "section": "1.2",
+        "score": 0.497489,
+        "hit": false,
+        "text": "In qualitative nursing research, researchers use various data collection methods, such as interviews, focus groups, observations, or document analysis, to gather non-numerical data. The data collected often consist of words, narratives, descriptions, and images that provide a detailed understanding "
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p032:c007",
+        "page": 32,
+        "section": "2.1",
+        "score": 0.497097,
+        "hit": false,
+        "text": "Current Trends in Nursing"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p015:c002",
+        "page": 15,
+        "section": "1.2",
+        "score": 0.493095,
+        "hit": false,
+        "text": "By upholding the protection of human rights in nursing research, nurses contribute to the integrity, validity, and ethical conduct of research. Ensuring participants' autonomy, privacy, confidentiality, and overall well-being enhances the trustworthiness of research findings and upholds the ethical "
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p033:c002",
+        "page": 33,
+        "section": "2.1",
+        "score": 0.491868,
+        "hit": false,
+        "text": "Another important purpose of emphasizing DEI is to address health disparity. Healthcare disparities exist among populations due to various factors called social determinant of health (SDOH), which include socioeconomic status, race, ethnicity, physical and social environment, as well as gender. Heal"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p015:c000",
+      "openstax-clinical-nursing-skills:para800:p015:c001",
+      "openstax-clinical-nursing-skills:para800:p014:c000",
+      "openstax-clinical-nursing-skills:para800:p014:c001",
+      "openstax-clinical-nursing-skills:para800:p029:c000",
+      "openstax-clinical-nursing-skills:para800:p029:c001"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 3338,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 1,
+    "rr10": 1.0,
+    "context_hit": true,
+    "latency_ms": 38.6
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "How do nurses validate the data collected during an assessment?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p023:c002",
+        "page": 23,
+        "section": "1.3",
+        "score": 0.782159,
+        "hit": true,
+        "text": "Validate Data Validation is the process of ensuring the accuracy and reliability of the collected data (ANA, 2021). Nurses compare and cross-reference the information obtained from multiple sources, such as the patient, family members, healthcare team, and medical records. By validating the data, nu"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p022:c004",
+        "page": 22,
+        "section": "1.3",
+        "score": 0.606094,
+        "hit": false,
+        "text": "Collect Data This step involves gathering information about the patient's health status through various methods, including interviews, observations, and physical examinations (American Nurses Association (ANA), 2021). Nurses collect both subjective data (information provided by the patient) and obje"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p024:c000",
+        "page": 24,
+        "section": "1.3",
+        "score": 0.578454,
+        "hit": false,
+        "text": "Identify Actual Patient Concerns In this step, nurses further refine the list of potential nursing diagnoses and identify the actual health problems or concerns that are present in the patient. They critically evaluate the data, considering the patient's specific symptoms, responses, and needs. By p"
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p022:c000",
+        "page": 22,
+        "section": "1.3",
+        "score": 0.574441,
+        "hit": false,
+        "text": "Assessment The assessment phase involves gathering data about the patient's health status, including physical, psychological, social, and cultural aspects (ANA, 2021). It includes collecting subjective information through interviews and objective data through physical examinations, laboratory tests,"
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p023:c004",
+        "page": 23,
+        "section": "1.3",
+        "score": 0.569734,
+        "hit": false,
+        "text": "Document Data Documentation is a crucial step in the assessment process. Nurses record the collected and organized data in a clear, concise, and accurate manner (ANA, 2021). This documentation serves as a legal and communication tool, ensuring that the information is accessible to the healthcare tea"
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p049:c002",
+        "page": 49,
+        "section": "2.3",
+        "score": 0.56489,
+        "hit": false,
+        "text": "• Clinical Judgment: Nurses should possess a deep understanding of clinical judgment, enabling them to assess patient data, discern patterns, and make informed decisions rooted in the best available evidence.\n• Evidence-Based Practice: Competency in evidence-based practice involves the ability to in"
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p018:c004",
+        "page": 18,
+        "section": "1.2",
+        "score": 0.563694,
+        "hit": false,
+        "text": "Acquire the Evidence Once the clinical questions are defined, nurses conduct a thorough search for the best available evidence to answer those questions. This involves accessing reputable databases, journals, and other reliable sources to find relevant research studies, systematic reviews, or clinic"
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p023:c003",
+        "page": 23,
+        "section": "1.3",
+        "score": 0.560974,
+        "hit": false,
+        "text": "Organize Data Once the data are collected and validated, nurses organize them in a systematic and structured manner. They categorize the information based on body systems, prioritize data based on the patient's immediate needs, and identify significant findings (ANA, 2021). Organizing the data helps"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p023:c006",
+        "page": 23,
+        "section": "1.3",
+        "score": 0.558177,
+        "hit": false,
+        "text": "Identify Potential Patient Concerns In this step, nurses review the gathered data and identify potential health problems or concerns. They critically analyze the information, considering both subjective and objective data, to recognize patterns, deviations from normalcy, and potential risk factors. "
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p022:c005",
+        "page": 22,
+        "section": "1.3",
+        "score": 0.556161,
+        "hit": false,
+        "text": "The nurse also uses their observation skills to identify important cues (Figure 1.12) during the patient's physical assessment and note any abnormal findings."
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p023:c002",
+      "openstax-clinical-nursing-skills:para800:p023:c001",
+      "openstax-clinical-nursing-skills:para800:p023:c003",
+      "openstax-clinical-nursing-skills:para800:p022:c004",
+      "openstax-clinical-nursing-skills:para800:p022:c003",
+      "openstax-clinical-nursing-skills:para800:p022:c005",
+      "openstax-clinical-nursing-skills:para800:p024:c000",
+      "openstax-clinical-nursing-skills:para800:p024:c001"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 4682,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 1,
+    "rr10": 1.0,
+    "context_hit": true,
+    "latency_ms": 35.1
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "If reassessment shows the patient's outcomes have not been met, what should the nurse do with the plan of care?",
+    "filter": {
+      "section": "1.3"
+    },
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p028:c002",
+        "page": 28,
+        "section": "1.3",
+        "score": 0.775252,
+        "hit": false,
+        "text": "Reassess to Determine if Outcomes Are Achieved In this step, the nurse conducts a thorough reassessment of the patient to determine the extent to which the established outcomes have been achieved. They assess whether the patient's health has improved, stabilized, or deteriorated based on the identif"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p028:c003",
+        "page": 28,
+        "section": "1.3",
+        "score": 0.706369,
+        "hit": true,
+        "text": "Revise or Terminate Nursing Plan of Care Based on the evaluation findings, nurses determine whether revisions to the nursing plan of care are necessary or if the plan can be terminated. If the outcomes have been achieved, the plan may be concluded, and the nurse focuses on discharge planning or tran"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p024:c002",
+        "page": 24,
+        "section": "1.3",
+        "score": 0.669528,
+        "hit": false,
+        "text": "Planning In the planning phase, nurses collaborate with the patient, their family, and the interdisciplinary healthcare team to set achievable goals or outcomes and develop a comprehensive plan of care (ANA, 2021). The plan outlines specific interventions, strategies, and expected outcomes to addres"
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p024:c003",
+        "page": 24,
+        "section": "1.3",
+        "score": 0.596569,
+        "hit": false,
+        "text": "Planning Care with a Diverse Patient Population Scenario: The nurse walks into the room of a patient who has just received a breast cancer diagnosis. The patient, Ash, is 36 years old and nonbinary. The purpose of the visit is to collaborate with Ash to develop a plan of care that suits their needs "
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p024:c001",
+        "page": 24,
+        "section": "1.3",
+        "score": 0.56516,
+        "hit": false,
+        "text": "Apply Data to Clinical Decision-Making In this final step of the nursing diagnosis phase, nurses utilize the identified nursing diagnoses to guide their clinical decision-making process (ANA, 2021). They use the data gathered during the assessment phase, along with their clinical expertise and EBP, "
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p025:c001",
+        "page": 25,
+        "section": "1.3",
+        "score": 0.557538,
+        "hit": false,
+        "text": "Establish and Prioritize Patient Outcomes In this step, nurses work collaboratively with the patient, their family, and the healthcare team to establish desired outcomes or goals that reflect the expected changes or improvements in the patient's health. These outcomes should be specific, measurable,"
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p025:c003",
+        "page": 25,
+        "section": "1.3",
+        "score": 0.539454,
+        "hit": false,
+        "text": "FIGURE 1.13 For best outcomes, patient goals should be SMART. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n\nDevelop Nursing Interventions After establishing and planning for patient outcomes, nurses develop nursing interventions or actions that will help the pati"
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p027:c000",
+        "page": 27,
+        "section": "1.3",
+        "score": 0.535896,
+        "hit": false,
+        "text": "FIGURE 1.14 A standardized care plan that is customizable may be used in some facilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n\nImplementation The implementation phase involves executing the planned nursing interventions according to the established plan "
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p026:c004",
+        "page": 26,
+        "section": "1.3",
+        "score": 0.535659,
+        "hit": false,
+        "text": "In these two examples, the ages and physical functionality of the patients help them to determine what plan of care is right for them. Even though they carry the same medical diagnosis, these two patients will have very different plans of care, including nursing diagnoses, outcomes, and intervention"
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p026:c002",
+        "page": 26,
+        "section": "1.3",
+        "score": 0.534966,
+        "hit": false,
+        "text": "Nurses consider the patient's unique circumstances, resources, and cultural background when formulating the interventions. The interventions may include a direct care activity such as administering medications, providing treatments, and assisting with activities of daily living. They may also involv"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p028:c002",
+      "openstax-clinical-nursing-skills:para800:p028:c001",
+      "openstax-clinical-nursing-skills:para800:p028:c003",
+      "openstax-clinical-nursing-skills:para800:p024:c002",
+      "openstax-clinical-nursing-skills:para800:p024:c001",
+      "openstax-clinical-nursing-skills:para800:p024:c003"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 4497,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 2,
+    "rr10": 0.5,
+    "context_hit": true,
+    "latency_ms": 49.7
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "Which proposed legislation would fund more nursing faculty to address the nursing shortage?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p032:c007",
+        "page": 32,
+        "section": "2.1",
+        "score": 0.615388,
+        "hit": false,
+        "text": "Current Trends in Nursing"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p033:c006",
+        "page": 33,
+        "section": "2.1",
+        "score": 0.607565,
+        "hit": false,
+        "text": "Another means to address provider shortages is telehealth, which gained significant importance during the COVID-19 pandemic. Legislation is being enacted to support and regulate the use of telehealth services, ensuring that nurses can provide remote care to patients across state lines. These legisla"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p034:c001",
+        "page": 34,
+        "section": "2.1",
+        "score": 0.585429,
+        "hit": true,
+        "text": "Advancing Telehealth Beyond COVID-19 Act of 2022. Extends certain expanded Medicare benefits for telehealth services enacted during COVID-19 to December 31, 2024.\n\nAllows for the continued provision of certain telehealth services for patients who use Medicare until late 2024.\n\nNursing shortages\n\nR. "
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p034:c004",
+        "page": 34,
+        "section": "2.1",
+        "score": 0.577257,
+        "hit": false,
+        "text": "At the same time, many nurses experienced heightened levels of burnout, physical and emotional fatigue, and increased risk of illness, leading some to take early retirements or leave the profession. Furthermore, nursing education programs struggled to adapt to remote learning and provide clinical ex"
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p033:c005",
+        "page": 33,
+        "section": "2.1",
+        "score": 0.574306,
+        "hit": false,
+        "text": "Legislative Trends Current legislative trends in nursing include ongoing efforts to improve healthcare delivery, enhance patient and nurse safety, expand the scope of nursing practice, and address the nationwide nursing shortage.\n\nMany states are expanding the scope of practice for advanced practice"
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p034:c003",
+        "page": 34,
+        "section": "2.1",
+        "score": 0.568045,
+        "hit": false,
+        "text": "Staffing Trends One of the most urgent and important trends in nursing staffing is the nursing shortage. The persistent nursing shortage has been significantly exacerbated by the impact of the COVID-19 pandemic. Prior to the pandemic, there was already a shortage of nurses, driven by factors such as"
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p032:c010",
+        "page": 32,
+        "section": "2.1",
+        "score": 0.554665,
+        "hit": false,
+        "text": "Educational Trends In 2021, the American Association of Colleges of Nursing (AACN) updated its framework for nursing education in the 21st century. In this updated framework, the AACN identified modern issues that should be included in current nursing education in order to best prepare students for "
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p032:c008",
+        "page": 32,
+        "section": "2.1",
+        "score": 0.553062,
+        "hit": false,
+        "text": "Current nursing trends reflect the dynamic nature of health care. Educationally, there is a growing emphasis on lifelong learning and advanced degrees, as well as an increased focus on diversity, equity, and inclusion. Legislative trends highlight the expansion of nurse practitioners' roles, grantin"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p034:c005",
+        "page": 34,
+        "section": "2.1",
+        "score": 0.533672,
+        "hit": false,
+        "text": "Retaining and attracting new and experienced nurses has become a priority for healthcare organizations. Strategies such as improved work environments, competitive compensation packages, professional development opportunities, flexible scheduling options, and recognition programs are being implemente"
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p014:c000",
+        "page": 14,
+        "section": "1.2",
+        "score": 0.53234,
+        "hit": false,
+        "text": "Evolution of Nursing Research"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p032:c007",
+      "openstax-clinical-nursing-skills:para800:p032:c006",
+      "openstax-clinical-nursing-skills:para800:p032:c008",
+      "openstax-clinical-nursing-skills:para800:p033:c006",
+      "openstax-clinical-nursing-skills:para800:p033:c005",
+      "openstax-clinical-nursing-skills:para800:p033:c007",
+      "openstax-clinical-nursing-skills:para800:p034:c001"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 4594,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 3,
+    "rr10": 0.3333333333333333,
+    "context_hit": true,
+    "latency_ms": 39.7
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "What does shared decision-making involve in patient-centered care?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c003",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.783702,
+        "hit": false,
+        "text": "Improved Quality of Care Collaborative care places the patient at the center of decision-making and care planning. Healthcare professionals from different disciplines collaborate to address the physical, emotional, social, and psychological needs of patients. This patient-centered approach ensures t"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p038:c002",
+        "page": 38,
+        "section": "2.2",
+        "score": 0.779481,
+        "hit": true,
+        "text": "Patient as a Team Member Patient-centered care involves a collaborative approach in which nurses work together with patients, their families, and other interdisciplinary team members. Shared decision-making empowers patients to actively participate in their care by providing information, discussing "
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p038:c000",
+        "page": 38,
+        "section": "2.2",
+        "score": 0.720917,
+        "hit": false,
+        "text": "and desires.\n\nPatient-centered care puts the patient at the heart of the healthcare experience, empowering them to actively participate in their own care and leading to better outcomes, increased satisfaction, and a truly collaborative partnership with their healthcare team.\n\nFundamentals of Patient"
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p038:c003",
+        "page": 38,
+        "section": "2.2",
+        "score": 0.720883,
+        "hit": false,
+        "text": "Although the patient is a member of their own healthcare team, patient-centered care ultimately recognizes patient autonomy, or the concept that patients have the right to make decisions about their own health care. Each patient is unique, with distinct physical, emotional, and social needs. Nurses "
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p039:c003",
+        "page": 39,
+        "section": "2.2",
+        "score": 0.710904,
+        "hit": false,
+        "text": "There are multiple benefits of patient-centered care, both for the patients and for other involved parties."
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p037:c007",
+        "page": 37,
+        "section": "2.2",
+        "score": 0.709845,
+        "hit": false,
+        "text": "Picture this: a patient walks into a hospital or clinic, feeling vulnerable and uncertain about what lies ahead. Suddenly, the patient is greeted by a team of healthcare providers who prioritize their unique needs, preferences, and values above all else. They listen attentively to the patient's conc"
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p042:c004",
+        "page": 42,
+        "section": "2.2",
+        "score": 0.706071,
+        "hit": false,
+        "text": "Patient-centered care emphasizes the importance of providing patients with accurate, understandable, and relevant information about their health conditions, treatment options, and care plans. This includes discussing risks, benefits, and alternatives to treatment in a transparent manner. Using trans"
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p050:c004",
+        "page": 50,
+        "section": "2.4",
+        "score": 0.692883,
+        "hit": false,
+        "text": "In the collaborative model, healthcare professionals work hand in hand, sharing information, bouncing ideas off each other, and making decisions as a collective force. It is like a brainstorming session where everyone's voice is heard, valued, and respected. Together, the providers create care plans"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c004",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.686533,
+        "hit": false,
+        "text": "Collaborative care has also been shown to improve patient outcomes. When healthcare professionals work together, they can provide a more holistic and coordinated approach to patient care. By leveraging their collective expertise, they can better assess patient needs, develop comprehensive care plans"
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p052:c004",
+        "page": 52,
+        "section": "2.4",
+        "score": 0.677717,
+        "hit": false,
+        "text": "Collaborative care in modern health care is built on several fundamental principles, which include organized communication, effective data sharing, simplified referrals, and integrated scheduling of care. This patient-centric approach relies on various healthcare professionals working together, acro"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p054:c003",
+      "openstax-clinical-nursing-skills:para800:p054:c002",
+      "openstax-clinical-nursing-skills:para800:p054:c004",
+      "openstax-clinical-nursing-skills:para800:p038:c002",
+      "openstax-clinical-nursing-skills:para800:p038:c001",
+      "openstax-clinical-nursing-skills:para800:p038:c003",
+      "openstax-clinical-nursing-skills:para800:p038:c000"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 4399,
+    "hit1": false,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 2,
+    "rr10": 0.5,
+    "context_hit": true,
+    "latency_ms": 34.5
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "question": "In the emergency department story, why did the nurse refuse to interpret a brain MRI for a worried family member?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p047:c004",
+        "page": 47,
+        "section": "2.3",
+        "score": 0.745738,
+        "hit": true,
+        "text": "As an RN who works in the emergency department, I often encounter various situations that demand quick thinking. One day I found myself in a situation where a concerned family member asked me to interpret a brain MRI scan for their loved one who was being treated for a head injury.\n\nThe family membe"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p047:c005",
+        "page": 47,
+        "section": "2.3",
+        "score": 0.687062,
+        "hit": false,
+        "text": "I explained to the family member that while I could provide information about the patient's overall condition and care plan, I wasn't qualified to interpret the MRI scan accurately. Radiology interpretation requires specialized training and expertise and is usually provided by radiologists.\n\nI let t"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p047:c006",
+        "page": 47,
+        "section": "2.3",
+        "score": 0.649067,
+        "hit": false,
+        "text": "While the family member seemed disappointed, they appreciated my honesty and understanding. They understood that my primary role was to provide safe and compassionate nursing care, and I had their loved one's best interests in mind by ensuring that the MRI was reviewed by the appropriate specialist."
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p045:c001",
+        "page": 45,
+        "section": "2.3",
+        "score": 0.505621,
+        "hit": false,
+        "text": "9 Communication A nurse uses clear and simple language free of medical jargon to explain an upcoming MRI to a patient and their family. The nurse encourages questions and actively listens to ensure the patient and family fully understand the procedure, its risks, and its benefits, promoting informed"
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p006:c004",
+        "page": 6,
+        "section": "1.1",
+        "score": 0.467689,
+        "hit": false,
+        "text": "Interpreting data requires critical thinking skills, including the ability to differentiate between significant and insignificant information, identify potential cause-and-effect relationships, and consider the contextual factors influencing the patient's health. Nurses must consider the patient's u"
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p023:c006",
+        "page": 23,
+        "section": "1.3",
+        "score": 0.436561,
+        "hit": false,
+        "text": "Identify Potential Patient Concerns In this step, nurses review the gathered data and identify potential health problems or concerns. They critically analyze the information, considering both subjective and objective data, to recognize patterns, deviations from normalcy, and potential risk factors. "
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p024:c002",
+        "page": 24,
+        "section": "1.3",
+        "score": 0.401941,
+        "hit": false,
+        "text": "Planning In the planning phase, nurses collaborate with the patient, their family, and the interdisciplinary healthcare team to set achievable goals or outcomes and develop a comprehensive plan of care (ANA, 2021). The plan outlines specific interventions, strategies, and expected outcomes to addres"
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p023:c005",
+        "page": 23,
+        "section": "1.3",
+        "score": 0.396943,
+        "hit": false,
+        "text": "Diagnose/Analyze Data In the diagnosis phase, nurses analyze and interpret the collected data to identify nursing diagnoses or health problems (ANA, 2021). A nursing diagnosis is a clinical judgment based on the medical diagnosis of a patient that help the nurse determine the plan of care. This step"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p044:c000",
+        "page": 44,
+        "section": "2.3",
+        "score": 0.394242,
+        "hit": false,
+        "text": "Standard Component of Nursing Process\n\nExample\n\n1 Assessment Asking a patient if they are in pain and asking them to rate it on a scale of 0-10.\n\n2 Diagnosis Giving a patient who is awaiting surgery a nursing diagnosis of \"Risk for Acute Pain related to scheduled orthopedic surgery as evidenced by p"
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p024:c000",
+        "page": 24,
+        "section": "1.3",
+        "score": 0.391707,
+        "hit": false,
+        "text": "Identify Actual Patient Concerns In this step, nurses further refine the list of potential nursing diagnoses and identify the actual health problems or concerns that are present in the patient. They critically evaluate the data, considering the patient's specific symptoms, responses, and needs. By p"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p047:c004",
+      "openstax-clinical-nursing-skills:para800:p047:c003",
+      "openstax-clinical-nursing-skills:para800:p047:c005",
+      "openstax-clinical-nursing-skills:para800:p047:c006",
+      "openstax-clinical-nursing-skills:para800:p047:c007"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 3297,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 1,
+    "rr10": 1.0,
+    "context_hit": true,
+    "latency_ms": 38.1
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "question": "How does collaborative care lower healthcare costs?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 4800,
+    "neighbors": true,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c001",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.797065,
+        "hit": true,
+        "text": "Collaborative care in health care, involving coordinated efforts among various healthcare providers, offers numerous benefits. It enhances the quality of care by allowing multiple disciplines to contribute their expertise, leading to more accurate diagnoses and tailored treatment plans. Additionally"
+      },
+      {
+        "rank": 2,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c005",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.788102,
+        "hit": true,
+        "text": "Reduced Cost of Care Collaborative care optimizes the use of healthcare resources and promotes efficiency in care delivery. By leveraging the expertise of different healthcare professionals, tasks can be delegated to the most appropriate team members, allowing each professional to practice within th"
+      },
+      {
+        "rank": 3,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c006",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.766522,
+        "hit": false,
+        "text": "Collaborative care has the potential to improve the overall efficiency and effectiveness of the healthcare system. By providing comprehensive and coordinated care, collaborative teams can reduce healthcare utilization, prevent unnecessary hospital admissions or readmissions, and optimize resource al"
+      },
+      {
+        "rank": 4,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c000",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.755806,
+        "hit": false,
+        "text": "needs of patients.\n\nBenefits of Collaborative Care"
+      },
+      {
+        "rank": 5,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c007",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.74773,
+        "hit": false,
+        "text": "Increased Convenience of Care Collaborative care can improve access to a wide range of healthcare services. By working together, healthcare professionals can efficiently coordinate appointments, referrals, and consultations. This reduces wait times and ensures that patients receive timely and approp"
+      },
+      {
+        "rank": 6,
+        "id": "openstax-clinical-nursing-skills:para800:p054:c004",
+        "page": 54,
+        "section": "2.4",
+        "score": 0.741793,
+        "hit": false,
+        "text": "Collaborative care has also been shown to improve patient outcomes. When healthcare professionals work together, they can provide a more holistic and coordinated approach to patient care. By leveraging their collective expertise, they can better assess patient needs, develop comprehensive care plans"
+      },
+      {
+        "rank": 7,
+        "id": "openstax-clinical-nursing-skills:para800:p050:c006",
+        "page": 50,
+        "section": "2.4",
+        "score": 0.725532,
+        "hit": false,
+        "text": "Collaborative Approach to Patient Care"
+      },
+      {
+        "rank": 8,
+        "id": "openstax-clinical-nursing-skills:para800:p052:c004",
+        "page": 52,
+        "section": "2.4",
+        "score": 0.718986,
+        "hit": false,
+        "text": "Collaborative care in modern health care is built on several fundamental principles, which include organized communication, effective data sharing, simplified referrals, and integrated scheduling of care. This patient-centric approach relies on various healthcare professionals working together, acro"
+      },
+      {
+        "rank": 9,
+        "id": "openstax-clinical-nursing-skills:para800:p050:c004",
+        "page": 50,
+        "section": "2.4",
+        "score": 0.69624,
+        "hit": false,
+        "text": "In the collaborative model, healthcare professionals work hand in hand, sharing information, bouncing ideas off each other, and making decisions as a collective force. It is like a brainstorming session where everyone's voice is heard, valued, and respected. Together, the providers create care plans"
+      },
+      {
+        "rank": 10,
+        "id": "openstax-clinical-nursing-skills:para800:p052:c005",
+        "page": 52,
+        "section": "2.4",
+        "score": 0.692893,
+        "hit": false,
+        "text": "By emphasizing organized communication, streamlined data sharing, simplified referrals, and integrated scheduling of care, collaborative care strives to address the complexities of modern health care and provide holistic and efficient care to individuals and communities. In this discussion, we explo"
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p054:c001",
+      "openstax-clinical-nursing-skills:para800:p054:c000",
+      "openstax-clinical-nursing-skills:para800:p054:c002",
+      "openstax-clinical-nursing-skills:para800:p054:c005",
+      "openstax-clinical-nursing-skills:para800:p054:c004",
+      "openstax-clinical-nursing-skills:para800:p054:c006"
+    ],
+    "dropped_by_budget": [],
+    "context_chars": 3192,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "first_hit_rank": 1,
+    "rr10": 1.0,
+    "context_hit": true,
+    "latency_ms": 33.4
+  }
+]

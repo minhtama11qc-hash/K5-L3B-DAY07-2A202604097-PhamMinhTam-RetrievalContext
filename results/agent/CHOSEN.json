@@ -1,0 +1,41 @@
+{
+  "frozen_at": "2026-11-16T10:13:36+07:00",
+  "chosen": "neighbors",
+  "baseline": "baseline_dense",
+  "chosen_config": {
+    "name": "neighbors",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 4800,
+    "max_searches": 3,
+    "keyword_tool": false,
+    "neighbors": true,
+    "use_filter": true,
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "prompt": "v1",
+    "note": "baseline + same-page neighbor chunks, 4800-char budget"
+  },
+  "baseline_config": {
+    "name": "baseline_dense",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 2600,
+    "max_searches": 3,
+    "keyword_tool": false,
+    "neighbors": false,
+    "use_filter": true,
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "prompt": "v1",
+    "note": "Day 6 strategy C as a search tool"
+  },
+  "decision": "Criterion in src/configs.py (fixed before any agent run). Dev mean grounded /2: neighbors 2.00 = neighbors_v2 2.00 (tie <0.05); both abstain 3/3; tie-breaks: context evidence 24/24 = 24/24, wrong abstentions 0 = 0, median cost/question 0.000302 < 0.000332 -> neighbors.",
+  "dev_table": "results/agent/dev/agent_table.md",
+  "code_sha256": {
+    "src/agent.py": "a8a0fac0b963439a",
+    "src/configs.py": "fb53afe4d3f18532",
+    "src/retrievers.py": "94022518845507a7",
+    "src/context.py": "1467a73619ed4e07"
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "q01",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q02",
+    "answerable": true,
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối nhầm: chunk p005:c004 chứa 'Hypothesis generation' không vào context; chỉ có câu dẫn p005:c003 ('consist of the following:')."
+  },
+  {
+    "query_id": "q03",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q04",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "reason": "Hai phát hiện đúng (SpO2 89%, crackles) nhưng thêm kết luận 'potential respiratory distress' không có trong p006:c002."
+  },
+  {
+    "query_id": "q05",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q06",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q07",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q08",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q09",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q10",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q11",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q12",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q13",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q14",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q15",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "reason": "Ý chính đúng (tình trạng có thể thay đổi nhanh) và citation hỗ trợ ý đó, nhưng thêm 'necessity for continuous assessment by a nurse' không có trong p049:c000."
+  },
+  {
+    "query_id": "q21",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q22",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q23",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "q24",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu)."
+  },
+  {
+    "query_id": "u01",
+    "answerable": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã search rồi từ chối, không thêm khẳng định. Vital signs are mentioned (p3, p6, p36, p44) but no respiratory-rate values are given."
+  },
+  {
+    "query_id": "u02",
+    "answerable": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã search rồi từ chối, không thêm khẳng định. Ratios are discussed only in general terms (p32, p35, p37); no number and no ICU ratio."
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã search rồi từ chối, không thêm khẳng định. p30 says only 'a team of nurses'; no count is given."
+  }
+]

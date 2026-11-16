@@ -1,0 +1,30 @@
+{
+  "config": "neighbors",
+  "split": "test",
+  "model": "gpt-4o-mini",
+  "cases": 11,
+  "errors": [],
+  "tool_use": "11/11",
+  "searches_distribution": {
+    "1": 10,
+    "3": 1
+  },
+  "tools_used": {
+    "search": 13
+  },
+  "context_evidence": "8/8",
+  "answered_answerable": "8/8",
+  "wrong_abstentions": "0/8",
+  "abstained_unanswerable": "3/3",
+  "cited_evidence_chunk": "8/8",
+  "answers_with_citations": "8/8",
+  "total_citations": 11,
+  "invalid_citation_events": 2,
+  "avg_context_chars": 4015,
+  "total_prompt_tokens": 22447,
+  "total_completion_tokens": 1618,
+  "total_cost_usd": 0.00397,
+  "median_cost_usd": 0.000301,
+  "median_latency_s": 2.86,
+  "note": "auto metrics only; grounded answer, citation support and abstention correctness are manual labels in reviews.json"
+}

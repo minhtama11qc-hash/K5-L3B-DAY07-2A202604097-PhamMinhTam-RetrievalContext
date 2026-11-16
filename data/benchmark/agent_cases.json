@@ -1,0 +1,298 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Which ethical principle means respecting a patient's right to make their own decisions?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "In the NCSBN clinical judgment model, which step is about coming up with possible explanations for the patient's problem?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What are the four components of Tanner's clinical judgment model?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "A pneumonia patient says they feel fine. What findings show the nurse still needs to act?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What are the four adaptive modes in Roy's adaptation model?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which four concepts make up the nursing metaparadigm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Which kinds of studies give the strongest evidence in the evidence hierarchy?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What are the five steps for implementing evidence-based practice according to the ANA?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Which type of nursing intervention cannot be carried out until a prescription is obtained?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What is an example of an effective SMART goal for a patient who just had a heart attack?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "When and where was the Nightingale Training School for Nurses established?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In what year was the American Nurses Association founded?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Which initiative lets a nurse work in other states without getting extra licenses?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "How is compassion fatigue defined?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "How did patient-centered care help the 67-year-old patient with type 2 diabetes?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "During evaluation, when is a postsurgical pain management plan considered effective?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "What do beneficence and nonmaleficence require?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "1.2"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "What happens during the assessment phase?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": 1
+    }
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "Which tasks is a registered nurse not allowed to delegate?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "question": "Why should basic care for a critically unstable patient not be delegated?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "What is meant by a simplified referral?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "What five components does the ADPIE nursing process consist of?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "question": "How should healthcare professionals communicate with each other?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "question": "Who is called the founder of modern nursing, and what did she emphasize?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "What is the normal resting respiratory rate range for adults, in breaths per minute?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Vital signs are mentioned (p3, p6, p36, p44) but no respiratory-rate values are given.",
+    "absence_check": "regex 'respiratory rate', 'breaths per minute', 'breaths/min': 0 matches; 'respirat': only p26/p44/p52 (respiratory therapists, 'monitors ... respirations')."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "What exact nurse-to-patient ratio does the book recommend for intensive care units?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Ratios are discussed only in general terms (p32, p35, p37); no number and no ICU ratio.",
+    "absence_check": "'nurse-to-patient' p32/p35/p37 read: no numeric ratio; 'ICU', 'intensive care': 0 matches."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "question": "How many nurses did Florence Nightingale bring with her to Scutari during the Crimean War?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p30 says only 'a team of nurses'; no count is given.",
+    "absence_check": "'Scutari'/'Crimean' only on p30, read: 'Nightingale and a team of nurses were deployed'; no number of nurses ('38' etc.: 0 matches)."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "What does the textbook call a patient's ability to restore their psychological balance after it has been disrupted?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Which groups are given as examples of at-risk populations in nursing research?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "How do nurses validate the data collected during an assessment?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "If reassessment shows the patient's outcomes have not been met, what should the nurse do with the plan of care?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "1.3"
+    }
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Which proposed legislation would fund more nursing faculty to address the nursing shortage?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "What does shared decision-making involve in patient-centered care?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "In the emergency department story, why did the nurse refuse to interpret a brain MRI for a worried family member?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "How does collaborative care lower healthcare costs?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "How many continuing education contact hours must a registered nurse complete to renew their license?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Continuing education appears only as an example in the table of practice standards (p45); license renewal requirements are not covered.",
+    "absence_check": "'continuing education': p45 only (online module for credit); 'renew', 'contact hours': 0 matches."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "What fines does the Workplace Violence Prevention for Health Care and Social Service Workers Act impose on employers who fail to comply?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Table 2.1 (p34) says the act would 'hold them accountable' but states no fines or penalties.",
+    "absence_check": "regex '\\bfines?\\b': only p6 ('feel fine'); 'penalt': 0 matches; p34 read."
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "question": "What does each letter of the SBAR communication tool stand for?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Interprofessional communication is discussed (section 2.4) but SBAR is never mentioned.",
+    "absence_check": "'SBAR', 'situation, background', 'Situation-Background': 0 matches; 'handoff' p21/p39/p45 read: no SBAR."
+  }
+]

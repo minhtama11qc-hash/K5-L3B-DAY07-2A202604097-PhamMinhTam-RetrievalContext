@@ -1,0 +1,1434 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "What does the textbook call a patient's ability to restore their psychological balance after it has been disrupted?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The textbook refers to a patient's ability to restore their psychological balance after it has been disrupted as a \"coping strategy.\" This involves actions or thought processes used to meet stressful situations or modify reactions to them [openstax-clinical-nursing-skills:para800:p003:c008].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p003:c008"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 893,
+        "prompt_tokens": 345,
+        "completion_tokens": 19,
+        "cost_usd": 6.315e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "patient's ability to restore psychological balance",
+        "filter": null,
+        "top_k": 3,
+        "ms": 45,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p003:c008",
+            "page": 3,
+            "section": "1.1",
+            "score": 0.594559
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p003:c007",
+            "page": 3,
+            "section": "1.1",
+            "score": 0.508451
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p004:c000",
+            "page": 4,
+            "section": "1.1",
+            "score": 0.502377
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p003:c008",
+          "openstax-clinical-nursing-skills:para800:p003:c007",
+          "openstax-clinical-nursing-skills:para800:p004:c000",
+          "openstax-clinical-nursing-skills:para800:p004:c001"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p003:c008",
+          "openstax-clinical-nursing-skills:para800:p003:c007",
+          "openstax-clinical-nursing-skills:para800:p004:c000",
+          "openstax-clinical-nursing-skills:para800:p004:c001"
+        ],
+        "context_chars": 2960
+      },
+      {
+        "event": "llm_call",
+        "ms": 1367,
+        "prompt_tokens": 1001,
+        "completion_tokens": 93,
+        "cost_usd": 0.00020595
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p003:c008"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p003:c008",
+      "openstax-clinical-nursing-skills:para800:p003:c007",
+      "openstax-clinical-nursing-skills:para800:p004:c000",
+      "openstax-clinical-nursing-skills:para800:p004:c001"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p003:c008 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 3 | section 1.1]\nThe patient's ability to institute, maintain, and regain psychological homeostasis when this homeostasis is disrupted for one reason or another is called coping strategy. There are many ways in which a nurse can assess how a patient is coping with their altered functioning, including the following:\n\n• Assessing the patient's support systems and available resources.\n• Assessing the patient's ability to adapt to temporary/permanent role changes.\n• Assessing the patient's reaction to a diagnosis of acute or chronic mental illness (e.g., rationalization, hopefulness, or anger).\n• Assessing the patient's coping skills for navigating life changes and provide support when needed.\n\n[openstax-clinical-nursing-skills:para800:p003:c007 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 3 | section 1.1]\nFacilitating Coping with Altered Function One of the nurse's roles is to care for patients and help them and their families adapt to temporary and permanent life changes (Burke, 2023b). Examples include changes in the patients' physical and mental functioning, both short and long term. Illness or injury can seriously affect almost every aspect of a patient's life, and every patient will handle their altered functioning in a different way. The altered functioning might be something short term, such as a patient who had a hip replacement who must now use a walker to ambulate safely for a few weeks. Or, it may be long term or chronic, such as a patient who has had a limb amputated.\n\n[openstax-clinical-nursing-skills:para800:p004:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 4 | section 1.1]\n• Identifying situations that may necessitate role changes for a patient (e.g., spouse with chronic illness or death of parent).\n• Providing support to the patient with unexpected altered body image (e.g., trauma-related limb amputation).\n• Evaluating the constructive use of defense mechanisms by a patient.\n• Evaluating whether the patient has successfully adapted to situational role changes (e.g., accept dependency on others).\n\n[openstax-clinical-nursing-skills:para800:p004:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 4 | section 1.1]\nA coping strategy is an action, a series of actions, or thought processes used in meeting a stressful or unpleasant situation or in modifying one's reaction to such a situation. Coping strategies are classified as adaptive or maladaptive. An adaptive coping strategy includes problem-focused coping and emotion-focused coping. The problem-focused coping strategy typically focuses on seeking treatment such as counseling or cognitive behavioral therapy. The emotion-focused coping strategy includes mindfulness, meditation, and yoga; using humor and jokes; seeking spiritual or religious pursuits; engaging in physical activity or breathing exercises; and seeking social support.",
+    "context_chars": 2960,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1346,
+    "completion_tokens": 112,
+    "cost_usd": 0.000269,
+    "elapsed_s": 2.3,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "Which groups are given as examples of at-risk populations in nursing research?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Examples of at-risk populations in nursing research include children, older adults, individuals with cognitive impairments, and those with limited decision-making capacity. These groups are considered at higher risk of experiencing adverse health, social, or economic outcomes due to various factors such as limited access to resources and socioeconomic disparities [openstax-clinical-nursing-skills:para800:p015:c000].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p015:c000"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 869,
+        "prompt_tokens": 340,
+        "completion_tokens": 18,
+        "cost_usd": 6.18e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "at-risk populations nursing research examples",
+        "filter": null,
+        "top_k": 3,
+        "ms": 66,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p014:c000",
+            "page": 14,
+            "section": "1.2",
+            "score": 0.667616
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p015:c000",
+            "page": 15,
+            "section": "1.2",
+            "score": 0.623561
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p032:c007",
+            "page": 32,
+            "section": "2.1",
+            "score": 0.564658
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p014:c000",
+          "openstax-clinical-nursing-skills:para800:p014:c001",
+          "openstax-clinical-nursing-skills:para800:p015:c000",
+          "openstax-clinical-nursing-skills:para800:p015:c001",
+          "openstax-clinical-nursing-skills:para800:p032:c007",
+          "openstax-clinical-nursing-skills:para800:p032:c006",
+          "openstax-clinical-nursing-skills:para800:p032:c008"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p014:c000",
+          "openstax-clinical-nursing-skills:para800:p014:c001",
+          "openstax-clinical-nursing-skills:para800:p015:c000",
+          "openstax-clinical-nursing-skills:para800:p015:c001",
+          "openstax-clinical-nursing-skills:para800:p032:c007",
+          "openstax-clinical-nursing-skills:para800:p032:c006",
+          "openstax-clinical-nursing-skills:para800:p032:c008"
+        ],
+        "context_chars": 3518
+      },
+      {
+        "event": "llm_call",
+        "ms": 2274,
+        "prompt_tokens": 1102,
+        "completion_tokens": 111,
+        "cost_usd": 0.00023189999999999997
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p015:c000"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p014:c000",
+      "openstax-clinical-nursing-skills:para800:p014:c001",
+      "openstax-clinical-nursing-skills:para800:p015:c000",
+      "openstax-clinical-nursing-skills:para800:p015:c001",
+      "openstax-clinical-nursing-skills:para800:p032:c007",
+      "openstax-clinical-nursing-skills:para800:p032:c006",
+      "openstax-clinical-nursing-skills:para800:p032:c008"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p014:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 14 | section 1.2]\nEvolution of Nursing Research\n\n[openstax-clinical-nursing-skills:para800:p014:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 14 | section 1.2]\nNursing research has undergone significant evolution over time, transitioning from a tradition-based practice to a scientifically rigorous discipline. Initially, nursing relied on personal experience and tradition, but beginning in the nineteenth century, the need for evidence-based practice became evident (U.S. Department of Health and Human Services, n.d.). The term evidence-based practice (EBP) refers to the integration of the best available research information, clinical expertise, and patient preferences or values to guide healthcare decision-making and improve patient outcomes (American Nurses Association (ANA), 2023). With the establishment of research organizations and journals, nursing research gained recognition and contributed to the improvement of patient care.\n\n[openstax-clinical-nursing-skills:para800:p015:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 15 | section 1.2]\nethical principles are upheld, participants' rights are protected, and potential risks are minimized.\n• At-risk populations: Special considerations must be given when conducting research involving at-risk populations. The term at-risk population refers to a group of individuals who are at higher risk of experiencing adverse health, social, or economic outcomes due to various factors such as limited access to resources, socioeconomic disparities, or health conditions. This includes children, older adults, individuals with cognitive impairments, or those with limited decision-making capacity.\n\n[openstax-clinical-nursing-skills:para800:p015:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 15 | section 1.2]\nExtra safeguards are necessary to protect the rights and welfare of these individuals.\n• Ethical guidelines and standards: Nursing research adheres to ethical guidelines and standards and national regulatory bodies' guidelines. These documents provide ethical frameworks and principles that guide researchers in conducting ethical and responsible research.\n\n[openstax-clinical-nursing-skills:para800:p032:c007 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 32 | section 2.1]\nCurrent Trends in Nursing\n\n[openstax-clinical-nursing-skills:para800:p032:c006 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 32 | section 2.1]\nThey may also work in academia, as administrators, in research, or in corporate settings. These roles require additional education and training.\n\n[openstax-clinical-nursing-skills:para800:p032:c008 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 32 | section 2.1]\nCurrent nursing trends reflect the dynamic nature of health care. Educationally, there is a growing emphasis on lifelong learning and advanced degrees, as well as an increased focus on diversity, equity, and inclusion. Legislative trends highlight the expansion of nurse practitioners' roles, granting them greater autonomy to address primary care shortages. Additionally, telehealth and digital health technologies have become integral, enabling nurses to provide remote care. Staffing trends focus on addressing the nurse shortage through strategies like nurse residency programs, efforts to improve nurse-to-patient ratios, as well as flexible staffing patterns to meet the individual needs and preferences of the staff and unit.",
+    "context_chars": 3518,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1442,
+    "completion_tokens": 129,
+    "cost_usd": 0.000294,
+    "elapsed_s": 3.21,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "How do nurses validate the data collected during an assessment?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Nurses validate the data collected during an assessment by comparing and cross-referencing information obtained from multiple sources, such as the patient, family members, healthcare team, and medical records. This process helps identify any inconsistencies or discrepancies that may require further clarification or investigation [openstax-clinical-nursing-skills:para800:p023:c002].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p023:c002"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 910,
+        "prompt_tokens": 337,
+        "completion_tokens": 19,
+        "cost_usd": 6.195e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "nurses validate data collected during assessment",
+        "filter": null,
+        "top_k": 3,
+        "ms": 37,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p023:c002",
+            "page": 23,
+            "section": "1.3",
+            "score": 0.764843
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p022:c004",
+            "page": 22,
+            "section": "1.3",
+            "score": 0.59313
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p023:c004",
+            "page": 23,
+            "section": "1.3",
+            "score": 0.569234
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p023:c002",
+          "openstax-clinical-nursing-skills:para800:p023:c001",
+          "openstax-clinical-nursing-skills:para800:p023:c003",
+          "openstax-clinical-nursing-skills:para800:p022:c004",
+          "openstax-clinical-nursing-skills:para800:p022:c003",
+          "openstax-clinical-nursing-skills:para800:p022:c005",
+          "openstax-clinical-nursing-skills:para800:p023:c004"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p023:c002",
+          "openstax-clinical-nursing-skills:para800:p023:c001",
+          "openstax-clinical-nursing-skills:para800:p023:c003",
+          "openstax-clinical-nursing-skills:para800:p022:c004",
+          "openstax-clinical-nursing-skills:para800:p022:c003",
+          "openstax-clinical-nursing-skills:para800:p022:c005",
+          "openstax-clinical-nursing-skills:para800:p023:c004"
+        ],
+        "context_chars": 3920
+      },
+      {
+        "event": "llm_call",
+        "ms": 2481,
+        "prompt_tokens": 1171,
+        "completion_tokens": 105,
+        "cost_usd": 0.00023865
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p023:c002"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p023:c002",
+      "openstax-clinical-nursing-skills:para800:p023:c001",
+      "openstax-clinical-nursing-skills:para800:p023:c003",
+      "openstax-clinical-nursing-skills:para800:p022:c004",
+      "openstax-clinical-nursing-skills:para800:p022:c003",
+      "openstax-clinical-nursing-skills:para800:p022:c005",
+      "openstax-clinical-nursing-skills:para800:p023:c004"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p023:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 23 | section 1.3]\nValidate Data Validation is the process of ensuring the accuracy and reliability of the collected data (ANA, 2021). Nurses compare and cross-reference the information obtained from multiple sources, such as the patient, family members, healthcare team, and medical records. By validating the data, nurses can identify any inconsistencies or discrepancies that may require further clarification or investigation.\n\n[openstax-clinical-nursing-skills:para800:p023:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 23 | section 1.3]\n• Learn how to interact with diverse patients. ◦ Keep an open mind, ask patients about their beliefs, attend cultural competence training, and collaborate with social workers or other cultural experts.\n• Provide appropriate learning materials.\n• Provide qualified medical translators.\n• Strive to build trust. ◦ Encourage questions, involve extended family in decision-making, show respect, and utilize culturally inclusive printed materials.\n\n[openstax-clinical-nursing-skills:para800:p023:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 23 | section 1.3]\nOrganize Data Once the data are collected and validated, nurses organize them in a systematic and structured manner. They categorize the information based on body systems, prioritize data based on the patient's immediate needs, and identify significant findings (ANA, 2021). Organizing the data helps nurses to identify patterns, make connections, and recognize potential health problems or risks.\n\n[openstax-clinical-nursing-skills:para800:p022:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 22 | section 1.3]\nCollect Data This step involves gathering information about the patient's health status through various methods, including interviews, observations, and physical examinations (American Nurses Association (ANA), 2021). Nurses collect both subjective data (information provided by the patient) and objective data (measurable and observable information). They ask relevant questions, such as any current or past medical issues, and current medications that the patient may be taking. They actively listen to the patient's concerns using such strategies as maintaining appropriate eye contact, using open body language, asking clarifying questions, and empathizing. This exchange encourages trust between the nurse and patient and encourages the patient to share information.\n\n[openstax-clinical-nursing-skills:para800:p022:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 22 | section 1.3]\nThe choice between focused and comprehensive assessments depends on the clinical context and the information required to provide the most effective and appropriate care for the patient. While focused assessments pinpoint specific issues, comprehensive assessments offer a more comprehensive perspective, helping healthcare providers develop comprehensive care plans and monitor overall patient wellness.\n\n[openstax-clinical-nursing-skills:para800:p022:c005 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 22 | section 1.3]\nThe nurse also uses their observation skills to identify important cues (Figure 1.12) during the patient's physical assessment and note any abnormal findings.\n\n[openstax-clinical-nursing-skills:para800:p023:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 23 | section 1.3]\nDocument Data Documentation is a crucial step in the assessment process. Nurses record the collected and organized data in a clear, concise, and accurate manner (ANA, 2021). This documentation serves as a legal and communication tool, ensuring that the information is accessible to the healthcare team and providing a comprehensive picture of the patient's health status. Accurate documentation supports continuity of care and enables effective collaboration among healthcare providers.",
+    "context_chars": 3920,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1508,
+    "completion_tokens": 124,
+    "cost_usd": 0.000301,
+    "elapsed_s": 3.43,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "If reassessment shows the patient's outcomes have not been met, what should the nurse do with the plan of care?",
+    "filter": {
+      "section": "1.3"
+    },
+    "status": "answered",
+    "answer": "If reassessment shows the patient's outcomes have not been met, the nurse should revise the plan of care by identifying new interventions or modifying existing ones to better support the patient's progress toward achieving the desired outcomes. The nurse continues to reassess and evaluate the patient's condition at regular intervals, making adjustments as needed to optimize outcomes and address any emerging concerns [openstax-clinical-nursing-skills:para800:p028:c003].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p028:c003"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 1130,
+        "prompt_tokens": 370,
+        "completion_tokens": 21,
+        "cost_usd": 6.809999999999999e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "reassessment patient outcomes not met plan of care",
+        "filter": {
+          "section": "1.3"
+        },
+        "top_k": 3,
+        "ms": 60,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p028:c002",
+            "page": 28,
+            "section": "1.3",
+            "score": 0.678249
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p028:c003",
+            "page": 28,
+            "section": "1.3",
+            "score": 0.599182
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p024:c002",
+            "page": 24,
+            "section": "1.3",
+            "score": 0.562035
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p028:c002",
+          "openstax-clinical-nursing-skills:para800:p028:c001",
+          "openstax-clinical-nursing-skills:para800:p028:c003",
+          "openstax-clinical-nursing-skills:para800:p024:c002",
+          "openstax-clinical-nursing-skills:para800:p024:c001",
+          "openstax-clinical-nursing-skills:para800:p024:c003"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p028:c002",
+          "openstax-clinical-nursing-skills:para800:p028:c001",
+          "openstax-clinical-nursing-skills:para800:p028:c003",
+          "openstax-clinical-nursing-skills:para800:p024:c002",
+          "openstax-clinical-nursing-skills:para800:p024:c001",
+          "openstax-clinical-nursing-skills:para800:p024:c003"
+        ],
+        "context_chars": 4497
+      },
+      {
+        "event": "llm_call",
+        "ms": 1674,
+        "prompt_tokens": 1327,
+        "completion_tokens": 120,
+        "cost_usd": 0.00027104999999999995
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p028:c003"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p028:c002",
+      "openstax-clinical-nursing-skills:para800:p028:c001",
+      "openstax-clinical-nursing-skills:para800:p028:c003",
+      "openstax-clinical-nursing-skills:para800:p024:c002",
+      "openstax-clinical-nursing-skills:para800:p024:c001",
+      "openstax-clinical-nursing-skills:para800:p024:c003"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p028:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 28 | section 1.3]\nReassess to Determine if Outcomes Are Achieved In this step, the nurse conducts a thorough reassessment of the patient to determine the extent to which the established outcomes have been achieved. They assess whether the patient's health has improved, stabilized, or deteriorated based on the identified criteria. They compare the patient's current status with the expected outcomes defined in the planning phase. This reassessment involves collecting new data, evaluating changes in the patient's condition, and reviewing any documentation or feedback from the patient. By evaluating the progress made toward achieving the outcomes, nurses can determine if the interventions have been effective in addressing the identified concerns.\n\n[openstax-clinical-nursing-skills:para800:p028:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 28 | section 1.3]\nEvaluation The evaluation phase focuses on determining the effectiveness of the nursing interventions and the progress made toward achieving the established goals (ANA, 2021). Nurses assess the patient's response to interventions, reevaluate the data, and compare the outcomes with the expected results. If needed, modifications to the plan of care are made to promote better patient outcomes and address any new or evolving health needs.\n\n[openstax-clinical-nursing-skills:para800:p028:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 28 | section 1.3]\nRevise or Terminate Nursing Plan of Care Based on the evaluation findings, nurses determine whether revisions to the nursing plan of care are necessary or if the plan can be terminated. If the outcomes have been achieved, the plan may be concluded, and the nurse focuses on discharge planning or transition to ongoing care. However, if the outcomes have not been met, the nurse revises the plan by identifying new interventions or modifying existing ones to better support the patient's progress toward achieving the desired outcomes. Nurses continue to reassess and evaluate the patient's condition at regular intervals, making adjustments to the plan of care as needed to optimize outcomes and address any emerging concerns.\n\nLINK TO LEARNING\n\n[openstax-clinical-nursing-skills:para800:p024:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 24 | section 1.3]\nPlanning In the planning phase, nurses collaborate with the patient, their family, and the interdisciplinary healthcare team to set achievable goals or outcomes and develop a comprehensive plan of care (ANA, 2021). The plan outlines specific interventions, strategies, and expected outcomes to address the identified nursing diagnosis. It takes into account the patient's preferences, resources, and cultural considerations.\n\nPATIENT CONVERSATIONS\n\n[openstax-clinical-nursing-skills:para800:p024:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 24 | section 1.3]\nApply Data to Clinical Decision-Making In this final step of the nursing diagnosis phase, nurses utilize the identified nursing diagnoses to guide their clinical decision-making process (ANA, 2021). They use the data gathered during the assessment phase, along with their clinical expertise and EBP, to develop an individualized plan of care. Nurses determine appropriate nursing interventions, establish goals and outcomes, and select strategies to address the identified patient concerns. This step serves as a bridge to the subsequent phases of the nursing process, facilitating the planning, implementation, and evaluation of nursing care.\n\n[openstax-clinical-nursing-skills:para800:p024:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 24 | section 1.3]\nPlanning Care with a Diverse Patient Population Scenario: The nurse walks into the room of a patient who has just received a breast cancer diagnosis. The patient, Ash, is 36 years old and nonbinary. The purpose of the visit is to collaborate with Ash to develop a plan of care that suits their needs and wants. Ash has a history of distrust of the healthcare system because of bad past experiences, and the nurse helps reassure them that their needs and wishes are at the center of the plan of care.\n\nNurse: Good morning, Ash. I'm glad you're here today. I understand that you've recently been diagnosed with breast cancer. We're here to discuss your care plan, and I want you to know that your input is extremely valuable. How are you feeling about everything?",
+    "context_chars": 4497,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1697,
+    "completion_tokens": 141,
+    "cost_usd": 0.000339,
+    "elapsed_s": 2.86,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "Which proposed legislation would fund more nursing faculty to address the nursing shortage?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The proposed legislation that would fund more nursing faculty to address the nursing shortage is R. 851/S. 246, the Future Advancement of Academic Nursing (FAAN) Act. This act aims to provide funding to increase the number of nursing faculty and improve nursing educational programs, ultimately increasing the number of new graduate nurses available for employment [openstax-clinical-nursing-skills:para800:p034:c001].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p034:c001"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 817,
+        "prompt_tokens": 340,
+        "completion_tokens": 19,
+        "cost_usd": 6.24e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "legislation fund nursing faculty nursing shortage",
+        "filter": null,
+        "top_k": 3,
+        "ms": 54,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p033:c005",
+            "page": 33,
+            "section": "2.1",
+            "score": 0.61712
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p034:c001",
+            "page": 34,
+            "section": "2.1",
+            "score": 0.58475
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p033:c006",
+            "page": 33,
+            "section": "2.1",
+            "score": 0.573557
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p033:c005",
+          "openstax-clinical-nursing-skills:para800:p033:c004",
+          "openstax-clinical-nursing-skills:para800:p033:c006",
+          "openstax-clinical-nursing-skills:para800:p034:c001",
+          "openstax-clinical-nursing-skills:para800:p034:c000"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p033:c005",
+          "openstax-clinical-nursing-skills:para800:p033:c004",
+          "openstax-clinical-nursing-skills:para800:p033:c006",
+          "openstax-clinical-nursing-skills:para800:p034:c001",
+          "openstax-clinical-nursing-skills:para800:p034:c000"
+        ],
+        "context_chars": 4382
+      },
+      {
+        "event": "llm_call",
+        "ms": 1985,
+        "prompt_tokens": 1225,
+        "completion_tokens": 119,
+        "cost_usd": 0.00025515
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p034:c001"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p033:c005",
+      "openstax-clinical-nursing-skills:para800:p033:c004",
+      "openstax-clinical-nursing-skills:para800:p033:c006",
+      "openstax-clinical-nursing-skills:para800:p034:c001",
+      "openstax-clinical-nursing-skills:para800:p034:c000"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p033:c005 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 33 | section 2.1]\nLegislative Trends Current legislative trends in nursing include ongoing efforts to improve healthcare delivery, enhance patient and nurse safety, expand the scope of nursing practice, and address the nationwide nursing shortage.\n\nMany states are expanding the scope of practice for advanced practice registered nurses (APRNs), including nurse practitioners, certified nurse-midwives, clinical nurse specialists, and certified registered nurse anesthetists. Legislative changes are granting APRNs greater autonomy in diagnosing and treating patients, prescribing medications, and practicing independently (ANA, 2022). This is particularly helpful in areas with provider shortages, where APRNs can help fill primary care provider needs and other crucial roles.\n\n[openstax-clinical-nursing-skills:para800:p033:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 33 | section 2.1]\nNursing education also recognizes the need for nurses to assume leadership and management roles in healthcare settings. There is an increasing emphasis on developing leadership competencies, such as effective communication, problem-solving, decision-making, and team management skills. Leadership education equips nurses to advocate for patients, drive quality improvement initiatives, and navigate the complexities of the healthcare system.\n\nFinally, nursing education and training must continually evolve to incorporate the rapid advancement of healthcare technologies and informatics systems. Students today learn to utilize EHRs, telehealth platforms, simulation technologies, and other digital tools to enhance patient care, communication, and data management.\n\n[openstax-clinical-nursing-skills:para800:p033:c006 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 33 | section 2.1]\nAnother means to address provider shortages is telehealth, which gained significant importance during the COVID-19 pandemic. Legislation is being enacted to support and regulate the use of telehealth services, ensuring that nurses can provide remote care to patients across state lines. These legislative efforts aim to increase access to health care, particularly for underserved populations in rural and remote areas. Legislation is also being introduced to address the nursing shortage and promote workforce development. Related initiatives include increased funding for nursing education programs, scholarships, and loan forgiveness programs to incentivize nursing careers, and the establishment of nursing residency programs to support the transition of new graduates into practice.\n\n[openstax-clinical-nursing-skills:para800:p034:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 34 | section 2.1]\nAdvancing Telehealth Beyond COVID-19 Act of 2022. Extends certain expanded Medicare benefits for telehealth services enacted during COVID-19 to December 31, 2024.\n\nAllows for the continued provision of certain telehealth services for patients who use Medicare until late 2024.\n\nNursing shortages\n\nR. 851/S. 246, the Future Advancement of Academic Nursing (FAAN) Act. This proposed legislation would provide funding to increase the number of nursing faculty and improve nursing educational programs.\n\nThe funding provided would increase the number of nursing faculty and availability of places for students in nursing schools, ultimately increasing the number of new graduate nurses available for employment.\n\nViolence against nurses\n\n[openstax-clinical-nursing-skills:para800:p034:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 34 | section 2.1]\nnurses (Table 2.1). These laws aim to establish protections, prevention strategies, and reporting mechanisms to ensure a safe work environment for nurses and other healthcare providers.\n\nCurrent Legislative\n\nExamples of Proposed or Enacted Legislation How Will This Law Help?\n\nTrend\n\nEnhanced autonomy for advanced practice registered nurses (APRNs)\n\nR. 8812, the Improving Care and Access to Nurses (I CAN) Act. This proposed legislation aims to eliminate care obstacles permanently and enhance the availability of services offered by APRNs within the Medicare and Medicaid programs.\n\nIt improves the type and availability of services that APRNs are able to provide within the Medicaid and Medicare programs.\n\nTelehealth expansion",
+    "context_chars": 4382,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1565,
+    "completion_tokens": 138,
+    "cost_usd": 0.000318,
+    "elapsed_s": 2.86,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "What does shared decision-making involve in patient-centered care?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Shared decision-making in patient-centered care involves empowering patients to actively participate in their care by providing information, discussing treatment options, and jointly deciding on the best course of action with their healthcare team. This collaborative approach recognizes patient autonomy and respects their unique needs, preferences, and values, ensuring that care is tailored to the individual patient [openstax-clinical-nursing-skills:para800:p038:c002][openstax-clinical-nursing-skills:para800:p038:c003].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p038:c002",
+      "openstax-clinical-nursing-skills:para800:p038:c003"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 767,
+        "prompt_tokens": 337,
+        "completion_tokens": 18,
+        "cost_usd": 6.135e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "shared decision-making patient-centered care",
+        "filter": null,
+        "top_k": 3,
+        "ms": 48,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p054:c003",
+            "page": 54,
+            "section": "2.4",
+            "score": 0.789063
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p038:c002",
+            "page": 38,
+            "section": "2.2",
+            "score": 0.765421
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p038:c000",
+            "page": 38,
+            "section": "2.2",
+            "score": 0.74428
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p054:c003",
+          "openstax-clinical-nursing-skills:para800:p054:c002",
+          "openstax-clinical-nursing-skills:para800:p054:c004",
+          "openstax-clinical-nursing-skills:para800:p038:c002",
+          "openstax-clinical-nursing-skills:para800:p038:c001",
+          "openstax-clinical-nursing-skills:para800:p038:c003",
+          "openstax-clinical-nursing-skills:para800:p038:c000"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p054:c003",
+          "openstax-clinical-nursing-skills:para800:p054:c002",
+          "openstax-clinical-nursing-skills:para800:p054:c004",
+          "openstax-clinical-nursing-skills:para800:p038:c002",
+          "openstax-clinical-nursing-skills:para800:p038:c001",
+          "openstax-clinical-nursing-skills:para800:p038:c003",
+          "openstax-clinical-nursing-skills:para800:p038:c000"
+        ],
+        "context_chars": 4399
+      },
+      {
+        "event": "llm_call",
+        "ms": 2048,
+        "prompt_tokens": 1225,
+        "completion_tokens": 120,
+        "cost_usd": 0.00025575
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Shared decision-making in patient-centered care involves empowering patients to actively participate in their care by providing information, discussing treatment options, and jointly deciding on the best course of action with their healthcare team. This collaborative approach recognizes patient autonomy and respects their unique needs, preferences, and values, ensuring that care is tailored to the individual patient [chunk-id].",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p038:c002",
+          "openstax-clinical-nursing-skills:para800:p038:c003"
+        ],
+        "bad": [
+          "openstax-clinical-nursing-skills:para800:p038:c002",
+          "openstax-clinical-nursing-skills:para800:p038:c003"
+        ]
+      },
+      {
+        "event": "llm_call",
+        "ms": 2469,
+        "prompt_tokens": 1510,
+        "completion_tokens": 153,
+        "cost_usd": 0.0002223
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p038:c002",
+          "openstax-clinical-nursing-skills:para800:p038:c003"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p054:c003",
+      "openstax-clinical-nursing-skills:para800:p054:c002",
+      "openstax-clinical-nursing-skills:para800:p054:c004",
+      "openstax-clinical-nursing-skills:para800:p038:c002",
+      "openstax-clinical-nursing-skills:para800:p038:c001",
+      "openstax-clinical-nursing-skills:para800:p038:c003",
+      "openstax-clinical-nursing-skills:para800:p038:c000"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p054:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nImproved Quality of Care Collaborative care places the patient at the center of decision-making and care planning. Healthcare professionals from different disciplines collaborate to address the physical, emotional, social, and psychological needs of patients. This patient-centered approach ensures that care is tailored to the individual's preferences, values, and goals. By involving patients in the decision-making process and considering their unique circumstances, collaborative care promotes greater patient satisfaction and engagement.\n\n[openstax-clinical-nursing-skills:para800:p054:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nUltimately, this collaborative approach fosters a patient-centered healthcare ecosystem that prioritizes both the effectiveness and efficiency of care delivery.\n\n[openstax-clinical-nursing-skills:para800:p054:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nCollaborative care has also been shown to improve patient outcomes. When healthcare professionals work together, they can provide a more holistic and coordinated approach to patient care. By leveraging their collective expertise, they can better assess patient needs, develop comprehensive care plans, and implement appropriate interventions. Collaborative care has been associated with improved patient satisfaction, reduced hospital readmissions, better management of chronic conditions, and enhanced overall health outcomes in both preventive and acute care.\n\n[openstax-clinical-nursing-skills:para800:p038:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 38 | section 2.2]\nPatient as a Team Member Patient-centered care involves a collaborative approach in which nurses work together with patients, their families, and other interdisciplinary team members. Shared decision-making empowers patients to actively participate in their care by providing information, discussing treatment options, and jointly deciding on the best course of action as a member of their own healthcare team. Nurses act as advocates, facilitating communication between patients and other healthcare professionals.\n\n[openstax-clinical-nursing-skills:para800:p038:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 38 | section 2.2]\nA fundamental concept in nursing that places the patient at the forefront of healthcare delivery is patient-centered care (AACN, 2023). It recognizes the importance of understanding and respecting the unique needs, preferences, values, and beliefs of each individual patient. Patient-centered care takes a holistic view of the patient, considering their physical, psychological, emotional, and social well-being. Nurses assess and address not only the patient's medical condition but also their personal and psychosocial needs. This approach recognizes that patients are unique individuals with their own life experiences, values, and beliefs that impact their health and healthcare decisions.\n\n[openstax-clinical-nursing-skills:para800:p038:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 38 | section 2.2]\nAlthough the patient is a member of their own healthcare team, patient-centered care ultimately recognizes patient autonomy, or the concept that patients have the right to make decisions about their own health care. Each patient is unique, with distinct physical, emotional, and social needs. Nurses should respect patients' choices, values, and preferences and involve them in the decision-making process. This requires effective communication and active listening to understand and address the patient's concerns. Nurses should strive to provide personalized care that considers the patient's specific circumstances. This involves tailoring interventions, treatment plans, and education to meet the patient's individual needs, cultural background, and beliefs.\n\n[openstax-clinical-nursing-skills:para800:p038:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 38 | section 2.2]\nand desires.\n\nPatient-centered care puts the patient at the heart of the healthcare experience, empowering them to actively participate in their own care and leading to better outcomes, increased satisfaction, and a truly collaborative partnership with their healthcare team.\n\nFundamentals of Patient-Centered Care",
+    "context_chars": 4399,
+    "searches": 1,
+    "llm_calls": 3,
+    "prompt_tokens": 3072,
+    "completion_tokens": 291,
+    "cost_usd": 0.000539,
+    "elapsed_s": 5.33,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "question": "In the emergency department story, why did the nurse refuse to interpret a brain MRI for a worried family member?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The nurse refused to interpret the brain MRI because interpreting radiological images falls outside the scope of nursing practice and requires specialized training and expertise typically provided by radiologists [openstax-clinical-nursing-skills:para800:p047:c004][openstax-clinical-nursing-skills:para800:p047:c005]. The nurse explained that while they could provide information about the patient's overall condition, they were not qualified to interpret the MRI accurately [openstax-clinical-nursing-skills:para800:p047:c005].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p047:c004",
+      "openstax-clinical-nursing-skills:para800:p047:c005"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 770,
+        "prompt_tokens": 348,
+        "completion_tokens": 22,
+        "cost_usd": 6.539999999999999e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "nurse refuse to interpret brain MRI emergency department story",
+        "filter": null,
+        "top_k": 3,
+        "ms": 44,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p047:c004",
+            "page": 47,
+            "section": "2.3",
+            "score": 0.673366
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p047:c005",
+            "page": 47,
+            "section": "2.3",
+            "score": 0.577464
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p047:c006",
+            "page": 47,
+            "section": "2.3",
+            "score": 0.494488
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p047:c004",
+          "openstax-clinical-nursing-skills:para800:p047:c003",
+          "openstax-clinical-nursing-skills:para800:p047:c005",
+          "openstax-clinical-nursing-skills:para800:p047:c006",
+          "openstax-clinical-nursing-skills:para800:p047:c007"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p047:c004",
+          "openstax-clinical-nursing-skills:para800:p047:c003",
+          "openstax-clinical-nursing-skills:para800:p047:c005",
+          "openstax-clinical-nursing-skills:para800:p047:c006",
+          "openstax-clinical-nursing-skills:para800:p047:c007"
+        ],
+        "context_chars": 3297
+      },
+      {
+        "event": "llm_call",
+        "ms": 1951,
+        "prompt_tokens": 1056,
+        "completion_tokens": 117,
+        "cost_usd": 0.00022860000000000003
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "The nurse refused to interpret the brain MRI because interpreting radiological images falls outside the scope of nursing practice and requires specialized training and expertise typically provided by radiologists [chunk-id:para800:p047:c004][chunk-id:para800:p047:c005]. The nurse explained that while they could provide information about the patient's overall condition, they were not qualified to interpret the MRI accurately [chunk-id:para800:p047:c005].",
+        "citations": [
+          "para800:p047:c004",
+          "para800:p047:c005"
+        ],
+        "bad": [
+          "para800:p047:c004",
+          "para800:p047:c005"
+        ]
+      },
+      {
+        "event": "llm_call",
+        "ms": 2110,
+        "prompt_tokens": 1302,
+        "completion_tokens": 163,
+        "cost_usd": 0.00020669999999999998
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p047:c004",
+          "openstax-clinical-nursing-skills:para800:p047:c005"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p047:c004",
+      "openstax-clinical-nursing-skills:para800:p047:c003",
+      "openstax-clinical-nursing-skills:para800:p047:c005",
+      "openstax-clinical-nursing-skills:para800:p047:c006",
+      "openstax-clinical-nursing-skills:para800:p047:c007"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p047:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 47 | section 2.3]\nAs an RN who works in the emergency department, I often encounter various situations that demand quick thinking. One day I found myself in a situation where a concerned family member asked me to interpret a brain MRI scan for their loved one who was being treated for a head injury.\n\nThe family member was visibly worried and eager for answers. They asked me to look up the patient's chart on my computer and review the MRI images and explain what was happening. I understood their anxiety, but I knew that interpreting radiological images, such as MRIs, fell outside the scope of my nursing practice.\n\n[openstax-clinical-nursing-skills:para800:p047:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 47 | section 2.3]\nFinally, the Scope of Nursing Practice facilitates collaboration and fosters positive relationships among healthcare professionals. It delineates areas of overlap and collaboration with other members of the healthcare team, promoting effective communication, coordination, and shared decision-making. This leads to improved patient outcomes and a more holistic approach to care.\n\nREAL RN STORIES\n\nRemaining Within Your Scope of Practice Nurse: Johanna, RN Clinical setting: Emergency department of a small, rural hospital Years in practice: 2 Facility location: Pennsylvania\n\n[openstax-clinical-nursing-skills:para800:p047:c005 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 47 | section 2.3]\nI explained to the family member that while I could provide information about the patient's overall condition and care plan, I wasn't qualified to interpret the MRI scan accurately. Radiology interpretation requires specialized training and expertise and is usually provided by radiologists.\n\nI let the family member know that our healthcare team would ensure that the MRI results were reviewed by a qualified specialist as soon as possible who could provide a detailed interpretation. I also mentioned that the attending physician would discuss the findings and treatment plan with them once the interpretation was available.\n\n[openstax-clinical-nursing-skills:para800:p047:c006 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 47 | section 2.3]\nWhile the family member seemed disappointed, they appreciated my honesty and understanding. They understood that my primary role was to provide safe and compassionate nursing care, and I had their loved one's best interests in mind by ensuring that the MRI was reviewed by the appropriate specialist. This experience reinforced the importance of staying within the boundaries of my scope of practice.\n\n[openstax-clinical-nursing-skills:para800:p047:c007 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 47 | section 2.3]\nDecision-Making Framework The Scope of Nursing Practice Decision-Making Framework was developed by professional nursing organizations as a tool for nurses and others to determine what actions a nurse may safely perform (Ballard et al., 2016). It guides nurses in navigating complex situations, ensuring that their actions align with their scope of practice and adhere to ethical and legal standards. The tool is intended for use by direct care nurses, managers, educators, administrators,",
+    "context_chars": 3297,
+    "searches": 1,
+    "llm_calls": 3,
+    "prompt_tokens": 2706,
+    "completion_tokens": 302,
+    "cost_usd": 0.000501,
+    "elapsed_s": 4.88,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "question": "How does collaborative care lower healthcare costs?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Collaborative care lowers healthcare costs by optimizing the use of healthcare resources and promoting efficiency in care delivery. It helps avoid unnecessary tests and procedures through shared decision-making, leading to reduced healthcare costs and better resource allocation [openstax-clinical-nursing-skills:para800:p054:c005]. Additionally, by allowing healthcare professionals to delegate tasks appropriately, it streamlines workflows and enhances overall efficiency [openstax-clinical-nursing-skills:para800:p054:c006].",
+    "citations": [
+      "openstax-clinical-nursing-skills:para800:p054:c005",
+      "openstax-clinical-nursing-skills:para800:p054:c006"
+    ],
+    "reason": null,
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 792,
+        "prompt_tokens": 334,
+        "completion_tokens": 19,
+        "cost_usd": 6.15e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "collaborative care lower healthcare costs",
+        "filter": null,
+        "top_k": 3,
+        "ms": 41,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p054:c001",
+            "page": 54,
+            "section": "2.4",
+            "score": 0.779384
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p054:c005",
+            "page": 54,
+            "section": "2.4",
+            "score": 0.775275
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p054:c006",
+            "page": 54,
+            "section": "2.4",
+            "score": 0.769921
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p054:c001",
+          "openstax-clinical-nursing-skills:para800:p054:c000",
+          "openstax-clinical-nursing-skills:para800:p054:c002",
+          "openstax-clinical-nursing-skills:para800:p054:c005",
+          "openstax-clinical-nursing-skills:para800:p054:c004",
+          "openstax-clinical-nursing-skills:para800:p054:c006"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p054:c001",
+          "openstax-clinical-nursing-skills:para800:p054:c000",
+          "openstax-clinical-nursing-skills:para800:p054:c002",
+          "openstax-clinical-nursing-skills:para800:p054:c005",
+          "openstax-clinical-nursing-skills:para800:p054:c004",
+          "openstax-clinical-nursing-skills:para800:p054:c006"
+        ],
+        "context_chars": 3192
+      },
+      {
+        "event": "llm_call",
+        "ms": 1929,
+        "prompt_tokens": 990,
+        "completion_tokens": 150,
+        "cost_usd": 0.0002385
+      },
+      {
+        "event": "answer",
+        "citations": [
+          "openstax-clinical-nursing-skills:para800:p054:c005",
+          "openstax-clinical-nursing-skills:para800:p054:c006"
+        ]
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p054:c001",
+      "openstax-clinical-nursing-skills:para800:p054:c000",
+      "openstax-clinical-nursing-skills:para800:p054:c002",
+      "openstax-clinical-nursing-skills:para800:p054:c005",
+      "openstax-clinical-nursing-skills:para800:p054:c004",
+      "openstax-clinical-nursing-skills:para800:p054:c006"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p054:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nCollaborative care in health care, involving coordinated efforts among various healthcare providers, offers numerous benefits. It enhances the quality of care by allowing multiple disciplines to contribute their expertise, leading to more accurate diagnoses and tailored treatment plans. Additionally, it often results in reduced costs of care as unnecessary tests or treatments can be minimized through shared decision-making and resource optimization. Collaborative care also increases the convenience of care for patients as they can receive multiple services in one location or through coordinated telehealth consultations, reducing travel and waiting times.\n\n[openstax-clinical-nursing-skills:para800:p054:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nneeds of patients.\n\nBenefits of Collaborative Care\n\n[openstax-clinical-nursing-skills:para800:p054:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nUltimately, this collaborative approach fosters a patient-centered healthcare ecosystem that prioritizes both the effectiveness and efficiency of care delivery.\n\n[openstax-clinical-nursing-skills:para800:p054:c005 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nReduced Cost of Care Collaborative care optimizes the use of healthcare resources and promotes efficiency in care delivery. By leveraging the expertise of different healthcare professionals, tasks can be delegated to the most appropriate team members, allowing each professional to practice within the full scope of their profession. This leads to a more efficient use of resources and streamlines workflows. Collaboration also helps avoid unnecessary tests, procedures, and consultations, reducing healthcare costs and optimizing resource allocation.\n\n[openstax-clinical-nursing-skills:para800:p054:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nCollaborative care has also been shown to improve patient outcomes. When healthcare professionals work together, they can provide a more holistic and coordinated approach to patient care. By leveraging their collective expertise, they can better assess patient needs, develop comprehensive care plans, and implement appropriate interventions. Collaborative care has been associated with improved patient satisfaction, reduced hospital readmissions, better management of chronic conditions, and enhanced overall health outcomes in both preventive and acute care.\n\n[openstax-clinical-nursing-skills:para800:p054:c006 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 54 | section 2.4]\nCollaborative care has the potential to improve the overall efficiency and effectiveness of the healthcare system. By providing comprehensive and coordinated care, collaborative teams can reduce healthcare utilization, prevent unnecessary hospital admissions or readmissions, and optimize resource allocation. The streamlined workflows, enhanced communication, and shared decision-making in collaborative care contribute to a more efficient and cost-effective healthcare system.",
+    "context_chars": 3192,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1324,
+    "completion_tokens": 169,
+    "cost_usd": 0.0003,
+    "elapsed_s": 2.76,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    },
+    "auto": {
+      "context_has_evidence": true,
+      "cited_evidence_chunk": true
+    }
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "How many continuing education contact hours must a registered nurse complete to renew their license?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The retrieved chunks do not contain information about the number of continuing education contact hours required for registered nurses to renew their license.",
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 775,
+        "prompt_tokens": 342,
+        "completion_tokens": 21,
+        "cost_usd": 6.39e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "continuing education contact hours registered nurse license renewal",
+        "filter": null,
+        "top_k": 3,
+        "ms": 49,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p046:c004",
+            "page": 46,
+            "section": "2.3",
+            "score": 0.503367
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p032:c011",
+            "page": 32,
+            "section": "2.1",
+            "score": 0.47882
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p046:c002",
+            "page": 46,
+            "section": "2.3",
+            "score": 0.46711
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p046:c004",
+          "openstax-clinical-nursing-skills:para800:p046:c003",
+          "openstax-clinical-nursing-skills:para800:p046:c005",
+          "openstax-clinical-nursing-skills:para800:p032:c011",
+          "openstax-clinical-nursing-skills:para800:p032:c010",
+          "openstax-clinical-nursing-skills:para800:p032:c012",
+          "openstax-clinical-nursing-skills:para800:p046:c002",
+          "openstax-clinical-nursing-skills:para800:p046:c001"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p046:c004",
+          "openstax-clinical-nursing-skills:para800:p046:c003",
+          "openstax-clinical-nursing-skills:para800:p046:c005",
+          "openstax-clinical-nursing-skills:para800:p032:c011",
+          "openstax-clinical-nursing-skills:para800:p032:c010",
+          "openstax-clinical-nursing-skills:para800:p032:c012",
+          "openstax-clinical-nursing-skills:para800:p046:c002",
+          "openstax-clinical-nursing-skills:para800:p046:c001"
+        ],
+        "context_chars": 4750
+      },
+      {
+        "event": "llm_call",
+        "ms": 987,
+        "prompt_tokens": 1384,
+        "completion_tokens": 38,
+        "cost_usd": 0.00023040000000000002
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved chunks do not contain information about the number of continuing education contact hours required for registered nurses to renew their license."
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p046:c004",
+      "openstax-clinical-nursing-skills:para800:p046:c003",
+      "openstax-clinical-nursing-skills:para800:p046:c005",
+      "openstax-clinical-nursing-skills:para800:p032:c011",
+      "openstax-clinical-nursing-skills:para800:p032:c010",
+      "openstax-clinical-nursing-skills:para800:p032:c012",
+      "openstax-clinical-nursing-skills:para800:p046:c002",
+      "openstax-clinical-nursing-skills:para800:p046:c001"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p046:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 46 | section 2.3]\nIf desired, the RN may then continue with their education for APRN with more formal specialized training.\n\n[openstax-clinical-nursing-skills:para800:p046:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 46 | section 2.3]\nAssociate Degree in Nursing programs provide a foundation in nursing knowledge and skills, combining classroom instruction with clinical experiences. Bachelor of Science in Nursing programs include ADN curriculum while also providing a comprehensive education in nursing, including theoretical knowledge, research skills, and clinical experiences. Bachelor of Science in Nursing programs often incorporate courses in the natural and social sciences, as well as additional coursework in areas such as leadership, community health, and evidence-based practice. Upon completion of the ADN or BSN program, graduates must pass a licensure examination called the National Council Licensure Examination for Registered Nurses (NCLEX-RN) in order to become an RN.\n\n[openstax-clinical-nursing-skills:para800:p046:c005 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 46 | section 2.3]\nScope of Nursing Practice\n\nThe ANA Scope of Nursing Practice defines the boundaries, responsibilities, and expectations of nursing professionals in their respective roles (ANA, 2021). It outlines the specific activities, interventions, and decision-making processes that nurses are authorized and qualified to perform within their jurisdiction. By defining these roles and responsibilities, the Scope of Nursing Practice serves several purposes.\n\nLINK TO LEARNING\n\nThe ANA's Scope of Practice (https://openstax.org/r/77ANAScopePrac) describes the \"who,\" \"what,\" \"where,\" \"when,\" \"why,\" and \"how\" of nursing practice (ANA, n.d.).\n\n[openstax-clinical-nursing-skills:para800:p032:c011 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 32 | section 2.1]\nAccording to the AACN, modern nursing education should align with current trends and values, encompassing crucial elements such as promoting diversity, equity, and inclusion within the profession; nurturing proficiency in systems-based practice; fostering competence in healthcare informatics and technology; fostering academic-practice partnerships; and instilling a commitment to continuous and advanced learning throughout one's nursing career. It should be competency based, an approach that focuses on assessing and developing specific skills, knowledge, and abilities in students, ensuring they are proficient in the essential competencies required for nursing practice rather than just completing a predetermined amount of time in a program.\n\n[openstax-clinical-nursing-skills:para800:p032:c010 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 32 | section 2.1]\nEducational Trends In 2021, the American Association of Colleges of Nursing (AACN) updated its framework for nursing education in the 21st century. In this updated framework, the AACN identified modern issues that should be included in current nursing education in order to best prepare students for future nursing practice.\n\n[openstax-clinical-nursing-skills:para800:p032:c012 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 32 | section 2.1]\nOne of the most important issues in current educational trends is diversity, equity, and inclusion (DEI) (Jolley &\n\n[openstax-clinical-nursing-skills:para800:p046:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 46 | section 2.3]\nEducation for Licensure Education for licensure in nursing involves completing a formal nursing education program that prepares individuals to become RNs. There are two common educational paths to RN licensure in the United States: Associate Degree in Nursing (ADN) programs and Bachelor of Science in Nursing (BSN) programs.\n\n[openstax-clinical-nursing-skills:para800:p046:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 46 | section 2.3]\nA nurse working in an outpatient clinic efficiently organizes patient appointments, ensuring that time slots are optimally utilized and patient wait times are minimized. By effectively allocating appointment slots and coordinating patient flow, the nurse maximizes the utilization of available resources while providing timely care to patients.\n\n17 Environmental health\n\nIn a long-term care facility, a nurse takes steps to maintain a safe and healthy environment for older adult residents. They conduct routine checks for potential hazards, such as slippery floors or tripping hazards, promptly address issues like mold or mildew, and ensure that proper ventilation and air quality standards are maintained.\n\nTABLE 2.6 Standards of Professional Performance (Source: ANA, 2021.)",
+    "context_chars": 4750,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1726,
+    "completion_tokens": 59,
+    "cost_usd": 0.000294,
+    "elapsed_s": 1.81,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    }
+  },
+  {
+    "query_id": "u05",
+    "split": "test",
+    "question": "What fines does the Workplace Violence Prevention for Health Care and Social Service Workers Act impose on employers who fail to comply?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The retrieved chunks do not provide information about the fines imposed on employers for non-compliance with the Workplace Violence Prevention for Health Care and Social Service Workers Act.",
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 843,
+        "prompt_tokens": 349,
+        "completion_tokens": 27,
+        "cost_usd": 6.855e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "Workplace Violence Prevention for Health Care and Social Service Workers Act fines penalties compliance",
+        "filter": null,
+        "top_k": 3,
+        "ms": 58,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p034:c002",
+            "page": 34,
+            "section": "2.1",
+            "score": 0.699171
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p033:c007",
+            "page": 33,
+            "section": "2.1",
+            "score": 0.386704
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p037:c004",
+            "page": 37,
+            "section": "2.1",
+            "score": 0.315412
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p034:c002",
+          "openstax-clinical-nursing-skills:para800:p034:c001",
+          "openstax-clinical-nursing-skills:para800:p034:c003",
+          "openstax-clinical-nursing-skills:para800:p033:c007",
+          "openstax-clinical-nursing-skills:para800:p033:c006",
+          "openstax-clinical-nursing-skills:para800:p037:c004"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p034:c002",
+          "openstax-clinical-nursing-skills:para800:p034:c001",
+          "openstax-clinical-nursing-skills:para800:p034:c003",
+          "openstax-clinical-nursing-skills:para800:p033:c007",
+          "openstax-clinical-nursing-skills:para800:p033:c006",
+          "openstax-clinical-nursing-skills:para800:p037:c004"
+        ],
+        "context_chars": 4589
+      },
+      {
+        "event": "llm_call",
+        "ms": 1148,
+        "prompt_tokens": 1312,
+        "completion_tokens": 45,
+        "cost_usd": 0.0002238
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved chunks do not provide information about the fines imposed on employers for non-compliance with the Workplace Violence Prevention for Health Care and Social Service Workers Act."
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p034:c002",
+      "openstax-clinical-nursing-skills:para800:p034:c001",
+      "openstax-clinical-nursing-skills:para800:p034:c003",
+      "openstax-clinical-nursing-skills:para800:p033:c007",
+      "openstax-clinical-nursing-skills:para800:p033:c006",
+      "openstax-clinical-nursing-skills:para800:p037:c004"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p034:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 34 | section 2.1]\nR. 1195/S. 4182, the Workplace Violence Prevention for Health Care and Social Service Workers Act. This law would enact strict standards for healthcare employers and hold them accountable for acts of workplace violence against their employees.\n\nThis law will ensure protections for nurses in the workplace against workplace violence from patients, families, coworkers, and others.\n\nTABLE 2.1 Legislation Related to Current Nursing Trends (Source: ANA, 2022.)\n\n[openstax-clinical-nursing-skills:para800:p034:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 34 | section 2.1]\nAdvancing Telehealth Beyond COVID-19 Act of 2022. Extends certain expanded Medicare benefits for telehealth services enacted during COVID-19 to December 31, 2024.\n\nAllows for the continued provision of certain telehealth services for patients who use Medicare until late 2024.\n\nNursing shortages\n\nR. 851/S. 246, the Future Advancement of Academic Nursing (FAAN) Act. This proposed legislation would provide funding to increase the number of nursing faculty and improve nursing educational programs.\n\nThe funding provided would increase the number of nursing faculty and availability of places for students in nursing schools, ultimately increasing the number of new graduate nurses available for employment.\n\nViolence against nurses\n\n[openstax-clinical-nursing-skills:para800:p034:c003 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 34 | section 2.1]\nStaffing Trends One of the most urgent and important trends in nursing staffing is the nursing shortage. The persistent nursing shortage has been significantly exacerbated by the impact of the COVID-19 pandemic. Prior to the pandemic, there was already a shortage of nurses, driven by factors such as an aging workforce with an increasing number of retiring nurses, increased healthcare demand due to an aging population, and an insufficient pipeline of new nurses due to a shortage of nursing school openings and faculty availability. However, COVID-19 introduced new challenges. The pandemic placed an unprecedented burden on healthcare systems, creating an urgent need for nurses to care for a surge in patients.\n\n[openstax-clinical-nursing-skills:para800:p033:c007 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 33 | section 2.1]\nThe Nursing Licensure Compact (NLC) is an initiative for allowing nurses to practice across state lines without obtaining additional licenses and is one way to address nursing shortages in underserved areas. The NLC has gained momentum, with many states enacting legislation to join the compact. This legislative trend facilitates the mobility of nurses and supports the provision of care in regions with workforce shortages or during emergencies.\n\nFinally, legislation is being introduced to address workplace violence against healthcare professionals, including\n\n[openstax-clinical-nursing-skills:para800:p033:c006 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 33 | section 2.1]\nAnother means to address provider shortages is telehealth, which gained significant importance during the COVID-19 pandemic. Legislation is being enacted to support and regulate the use of telehealth services, ensuring that nurses can provide remote care to patients across state lines. These legislative efforts aim to increase access to health care, particularly for underserved populations in rural and remote areas. Legislation is also being introduced to address the nursing shortage and promote workforce development. Related initiatives include increased funding for nursing education programs, scholarships, and loan forgiveness programs to incentivize nursing careers, and the establishment of nursing residency programs to support the transition of new graduates into practice.\n\n[openstax-clinical-nursing-skills:para800:p037:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 37 | section 2.1]\nA top priority is the creation of safe and healthy work environments that prioritize their well-being. Nurses are vocal about the importance of appropriate nurse-to-patient ratios, manageable workloads, and adequate rest breaks. Other important issues concern the implementation of policies and practices that prevent workplace violence, address bullying and harassment, and promote a culture of respect and support. Nurses also advocate for the implementation of wellness programs, access to mental health resources, and support services that address the unique stressors and challenges faced by nurses.",
+    "context_chars": 4589,
+    "searches": 1,
+    "llm_calls": 2,
+    "prompt_tokens": 1661,
+    "completion_tokens": 72,
+    "cost_usd": 0.000292,
+    "elapsed_s": 2.05,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    }
+  },
+  {
+    "query_id": "u06",
+    "split": "test",
+    "question": "What does each letter of the SBAR communication tool stand for?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The retrieved chunks do not provide the specific meanings of each letter in the SBAR communication tool.",
+    "events": [
+      {
+        "event": "llm_call",
+        "ms": 678,
+        "prompt_tokens": 339,
+        "completion_tokens": 16,
+        "cost_usd": 6.0450000000000006e-05
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "SBAR communication tool",
+        "filter": null,
+        "top_k": 3,
+        "ms": 34,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p036:c001",
+            "page": 36,
+            "section": "2.1",
+            "score": 0.196523
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p006:c005",
+            "page": 6,
+            "section": "1.1",
+            "score": 0.151516
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p045:c001",
+            "page": 45,
+            "section": "2.3",
+            "score": 0.138581
+          }
+        ],
+        "admitted": [
+          "openstax-clinical-nursing-skills:para800:p036:c001",
+          "openstax-clinical-nursing-skills:para800:p036:c000",
+          "openstax-clinical-nursing-skills:para800:p036:c002",
+          "openstax-clinical-nursing-skills:para800:p006:c005",
+          "openstax-clinical-nursing-skills:para800:p006:c004",
+          "openstax-clinical-nursing-skills:para800:p045:c001"
+        ],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p036:c001",
+          "openstax-clinical-nursing-skills:para800:p036:c000",
+          "openstax-clinical-nursing-skills:para800:p036:c002",
+          "openstax-clinical-nursing-skills:para800:p006:c005",
+          "openstax-clinical-nursing-skills:para800:p006:c004",
+          "openstax-clinical-nursing-skills:para800:p045:c001"
+        ],
+        "context_chars": 4658
+      },
+      {
+        "event": "llm_call",
+        "ms": 790,
+        "prompt_tokens": 1280,
+        "completion_tokens": 15,
+        "cost_usd": 0.000201
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "SBAR meaning",
+        "filter": null,
+        "top_k": 3,
+        "ms": 40,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p004:c002",
+            "page": 4,
+            "section": "1.1",
+            "score": 0.143392
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p006:c005",
+            "page": 6,
+            "section": "1.1",
+            "score": 0.138753
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p034:c000",
+            "page": 34,
+            "section": "2.1",
+            "score": 0.136284
+          }
+        ],
+        "admitted": [],
+        "dropped_by_budget": [
+          "openstax-clinical-nursing-skills:para800:p004:c002",
+          "openstax-clinical-nursing-skills:para800:p034:c000"
+        ],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p036:c001",
+          "openstax-clinical-nursing-skills:para800:p036:c000",
+          "openstax-clinical-nursing-skills:para800:p036:c002",
+          "openstax-clinical-nursing-skills:para800:p006:c005",
+          "openstax-clinical-nursing-skills:para800:p006:c004",
+          "openstax-clinical-nursing-skills:para800:p045:c001"
+        ],
+        "context_chars": 4658
+      },
+      {
+        "event": "llm_call",
+        "ms": 715,
+        "prompt_tokens": 1338,
+        "completion_tokens": 17,
+        "cost_usd": 0.0001245
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "method": "dense",
+        "query": "SBAR communication tool definition",
+        "filter": null,
+        "top_k": 3,
+        "ms": 44,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-clinical-nursing-skills:para800:p006:c005",
+            "page": 6,
+            "section": "1.1",
+            "score": 0.195894
+          },
+          {
+            "rank": 2,
+            "id": "openstax-clinical-nursing-skills:para800:p045:c001",
+            "page": 45,
+            "section": "2.3",
+            "score": 0.166766
+          },
+          {
+            "rank": 3,
+            "id": "openstax-clinical-nursing-skills:para800:p036:c001",
+            "page": 36,
+            "section": "2.1",
+            "score": 0.16503
+          }
+        ],
+        "admitted": [],
+        "dropped_by_budget": [],
+        "context_ids": [
+          "openstax-clinical-nursing-skills:para800:p036:c001",
+          "openstax-clinical-nursing-skills:para800:p036:c000",
+          "openstax-clinical-nursing-skills:para800:p036:c002",
+          "openstax-clinical-nursing-skills:para800:p006:c005",
+          "openstax-clinical-nursing-skills:para800:p006:c004",
+          "openstax-clinical-nursing-skills:para800:p045:c001"
+        ],
+        "context_chars": 4658
+      },
+      {
+        "event": "search_limit",
+        "searches": 3
+      },
+      {
+        "event": "llm_call",
+        "ms": 1276,
+        "prompt_tokens": 1443,
+        "completion_tokens": 33,
+        "cost_usd": 0.00014025
+      },
+      {
+        "event": "abstain",
+        "reason": "The retrieved chunks do not provide the specific meanings of each letter in the SBAR communication tool."
+      }
+    ],
+    "context_ids": [
+      "openstax-clinical-nursing-skills:para800:p036:c001",
+      "openstax-clinical-nursing-skills:para800:p036:c000",
+      "openstax-clinical-nursing-skills:para800:p036:c002",
+      "openstax-clinical-nursing-skills:para800:p006:c005",
+      "openstax-clinical-nursing-skills:para800:p006:c004",
+      "openstax-clinical-nursing-skills:para800:p045:c001"
+    ],
+    "context": "[openstax-clinical-nursing-skills:para800:p036:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 36 | section 2.1]\nNursing Role What It Is Why It Is Important\n\nRemote patient monitoring\n\nPatients' vital signs, symptoms, and health data are collected remotely through wearable devices or home monitoring systems.\n\nNurses analyze and interpret the data, identify potential issues, and provide timely interventions. This allows for proactive management of chronic conditions, early detection of complications, and reduction in hospital readmissions.\n\nVirtual consultations and triage\n\nNurses conduct virtual consultations, provide triage services, and offer expert advice through telehealth platforms.\n\n[openstax-clinical-nursing-skills:para800:p036:c000 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 36 | section 2.1]\nLINK TO LEARNING\n\nThe American Psychiatric Nurses Association offers a self-care tip sheet (https://openstax.org/r/77SelfCareTips) with suggestions for nurses to help sustain their mind, body, and spirit and prevent burnout.\n\nNursing's Role in Telehealth and Technology Nursing's role in telehealth and technology is expanding rapidly, transforming the way health care is delivered and accessed. Telehealth is a method of using telecommunications technology to provide healthcare services remotely. Nurses are increasingly at the forefront of utilizing telehealth and embracing technology to provide care, enhance patient outcomes, and improve healthcare efficiency. Table 2.2 identifies some key aspects of nursing's growing role in telehealth and technology.\n\n[openstax-clinical-nursing-skills:para800:p036:c002 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 36 | section 2.1]\nNurses assess patients' symptoms, provide guidance, offer education, and determine the appropriate level of care needed. Through tele-triage, nurses help patients access timely care, alleviate unnecessary emergency department visits, and optimize healthcare resources. Nurses are also involved in delivering telehealth education and coaching to patients on disease management, medication adherence, lifestyle modifications, and self-care techniques.\n\nTelehealth nursing hotlines\n\nNurses staff telehealth nursing hotlines, providing 24/7 access to healthcare advice and guidance. They address nonemergency concerns, answer questions, and offer recommendations for self-care.\n\n[openstax-clinical-nursing-skills:para800:p006:c005 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 6 | section 1.1]\nResponding The responding component of Tanner's clinical judgment measurement model (CJMM) involves the nurse's ability to develop and implement appropriate actions or interventions based on the interpretation of the collected data and the identified patient needs (Mann, 2018). During the responding phase, nurses utilize their clinical knowledge, expertise, and evidence-based practice to generate a range of possible actions or interventions to address the\n\n[openstax-clinical-nursing-skills:para800:p006:c004 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 6 | section 1.1]\nInterpreting data requires critical thinking skills, including the ability to differentiate between significant and insignificant information, identify potential cause-and-effect relationships, and consider the contextual factors influencing the patient's health. Nurses must consider the patient's unique circumstances, such as their medical history, personal preferences, and cultural background, when interpreting the data. Effective interpretation of the data collected allows nurses to develop hypotheses or possible explanations regarding the patient's health status and the underlying factors contributing to their condition. It enables the nurse to formulate educated guesses about the possible diagnoses, problems, or areas of concern that need further exploration or intervention.\n\n[openstax-clinical-nursing-skills:para800:p045:c001 | data/corpus/clinical_nursing_ch1_ch2.pdf | page 45 | section 2.3]\n9 Communication A nurse uses clear and simple language free of medical jargon to explain an upcoming MRI to a patient and their family. The nurse encourages questions and actively listens to ensure the patient and family fully understand the procedure, its risks, and its benefits, promoting informed decision-making and reducing anxiety.\n\n10 Collaboration A nurse conducts bedside handoff by involving both the outgoing and incoming shifts of nurses. They discuss the patient's condition, care plan, and any concerns openly and collaboratively, ensuring accurate and continuous care transition while also involving the patient in the conversation when appropriate.",
+    "context_chars": 4658,
+    "searches": 3,
+    "llm_calls": 4,
+    "prompt_tokens": 4400,
+    "completion_tokens": 81,
+    "cost_usd": 0.000526,
+    "elapsed_s": 3.58,
+    "config": {
+      "name": "neighbors",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 4800,
+      "max_searches": 3,
+      "keyword_tool": false,
+      "neighbors": true,
+      "use_filter": true,
+      "model": "gpt-4o-mini",
+      "temperature": 0.0,
+      "prompt": "v1",
+      "note": "baseline + same-page neighbor chunks, 4800-char budget"
+    }
+  }
+]

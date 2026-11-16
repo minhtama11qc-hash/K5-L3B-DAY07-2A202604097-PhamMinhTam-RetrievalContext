@@ -1,0 +1,33 @@
+{
+  "model_load_seconds": 7.7,
+  "methods": [
+    {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 2600,
+      "candidates": 20,
+      "use_filter": true,
+      "neighbors": false,
+      "split": "test",
+      "N": 8,
+      "hit1": "5/8",
+      "hit1_rate": 0.625,
+      "hit3": "8/8",
+      "hit3_rate": 1.0,
+      "hit10": "8/8",
+      "mrr10": 0.792,
+      "context_evidence": "8/8",
+      "context_evidence_rate": 1.0,
+      "avg_context_chars": 1957,
+      "avg_context_tokens_est": 489,
+      "median_latency_ms": 35.5,
+      "misses_at3": [],
+      "misses_at1": [
+        "t04",
+        "t05",
+        "t06"
+      ],
+      "cost_usd": 0.0
+    }
+  ]
+}

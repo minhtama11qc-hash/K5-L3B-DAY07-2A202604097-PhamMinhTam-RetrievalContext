@@ -1,0 +1,9 @@
+# Day 7 dependencies (Python 3.11+; tested on 3.13.7, Windows 11, CPU only)
+# torch: python -m pip install torch==2.15.0   (the PyPI wheel for Windows is the CPU build)
+psycopg[binary]==3.3.8
+pgvector==0.5.1
+numpy==2.5.4
+sentence-transformers==6.3.0
+python-dotenv>=1,<2
+openai>=1.50
+torch==2.15.0

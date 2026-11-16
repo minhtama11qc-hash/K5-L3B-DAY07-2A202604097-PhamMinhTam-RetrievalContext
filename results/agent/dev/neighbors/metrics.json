@@ -1,0 +1,63 @@
+{
+  "split": "dev",
+  "config": "neighbors",
+  "cases": 27,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 27,
+    "N": 27
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 24,
+    "N": 24,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 30,
+    "N": 30
+  },
+  "answer_citation_coverage": {
+    "n": 24,
+    "N": 24
+  },
+  "abstention": {
+    "n": 3,
+    "N": 3
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 24
+  },
+  "auto": {
+    "config": "neighbors",
+    "split": "dev",
+    "model": "gpt-4o-mini",
+    "cases": 27,
+    "errors": [],
+    "tool_use": "27/27",
+    "searches_distribution": {
+      "1": 26,
+      "2": 1
+    },
+    "tools_used": {
+      "search": 28
+    },
+    "context_evidence": "24/24",
+    "answered_answerable": "24/24",
+    "wrong_abstentions": "0/24",
+    "abstained_unanswerable": "3/3",
+    "cited_evidence_chunk": "24/24",
+    "answers_with_citations": "24/24",
+    "total_citations": 30,
+    "invalid_citation_events": 4,
+    "avg_context_chars": 3844,
+    "total_prompt_tokens": 47759,
+    "total_completion_tokens": 3541,
+    "total_cost_usd": 0.0089,
+    "median_cost_usd": 0.000302,
+    "median_latency_s": 2.8,
+    "note": "auto metrics only; grounded answer, citation support and abstention correctness are manual labels in reviews.json"
+  }
+}

@@ -1,0 +1,636 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "Which ethical principle means respecting a patient's right to make their own decisions?",
+    "expected_answer": "Autonomy.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 4,
+        "evidence": "Autonomy is respecting the right of patients to make their own decisions and participate in their care.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p004:c006"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "paraphrase",
+    "question": "In the NCSBN clinical judgment model, which step is about coming up with possible explanations for the patient's problem?",
+    "expected_answer": "Step 4, hypothesis generation.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 5,
+        "evidence": "4. Hypothesis generation: Generating possible hypotheses or alternative explanations to explain the problem and guide further assessment and intervention.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p005:c004"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "What are the four components of Tanner's clinical judgment model?",
+    "expected_answer": "Noticing, interpreting, responding, and reflecting.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 5,
+        "evidence": "which includes four major components: noticing, interpreting, responding, and reflecting",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p005:c006"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "condition",
+    "question": "A pneumonia patient says they feel fine. What findings show the nurse still needs to act?",
+    "expected_answer": "Oxygen saturation of only 89 percent on room air and crackles heard in the lungs.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 6,
+        "evidence": "However, their oxygen saturation is only 89 percent on room air, and when the nurse auscultates the patient's lungs, they hear crackles.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p006:c002"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "What are the four adaptive modes in Roy's adaptation model?",
+    "expected_answer": "Physiological, self-concept, role function, and interdependence.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 8,
+        "evidence": "Roy's model proposes four major adaptive modes: physiological, self-concept, role function, and interdependence.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p008:c005"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "Which four concepts make up the nursing metaparadigm?",
+    "expected_answer": "Person, environment, health, and nursing.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 13,
+        "evidence": "These concepts are person, environment, health, and nursing.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p013:c000"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "paraphrase",
+    "question": "Which kinds of studies give the strongest evidence in the evidence hierarchy?",
+    "expected_answer": "Systematic reviews and meta-analyses (top of the hierarchy).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 18,
+        "evidence": "The commonly recognized hierarchy includes systematic reviews and meta-analyses at the top",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p018:c006"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "What are the five steps for implementing evidence-based practice according to the ANA?",
+    "expected_answer": "Ask a clinical question, acquire the evidence, appraise the evidence, apply the evidence, assess outcomes.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 18,
+        "evidence": "there are five key steps in implementing EBP: ask a clinical question, acquire the evidence, appraise the evidence, apply the evidence, and assess outcomes.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p018:c003"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "condition",
+    "question": "Which type of nursing intervention cannot be carried out until a prescription is obtained?",
+    "expected_answer": "A dependent nursing intervention (e.g. administering medication).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 26,
+        "evidence": "a dependent nursing intervention requires a prescription before it can be performed.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p026:c000"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "example",
+    "question": "What is an example of an effective SMART goal for a patient who just had a heart attack?",
+    "expected_answer": "\"I will only eat out at a restaurant once a week.\"",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 25,
+        "evidence": "An effective SMART goal for this patient may be \"I will only eat out at a restaurant once a week.\"",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p025:c002"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "When and where was the Nightingale Training School for Nurses established?",
+    "expected_answer": "London, 1860.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 30,
+        "evidence": "The Nightingale Training School for Nurses was established in London in 1860, marking the beginning of formal nursing education.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p030:c007"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "In what year was the American Nurses Association founded?",
+    "expected_answer": "1896 (as the Nurses' Associated Alumnae of the United States and Canada; current name adopted in 1911).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 31,
+        "evidence": "The American Nurses Association (ANA), now the largest organization of registered nurses in the United States, was founded in 1896",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p031:c005"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "paraphrase",
+    "question": "Which initiative lets a nurse work in other states without getting extra licenses?",
+    "expected_answer": "The Nursing Licensure Compact (NLC).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 33,
+        "evidence": "The Nursing Licensure Compact (NLC) is an initiative for allowing nurses to practice across state lines without obtaining additional licenses",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p033:c007"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "direct",
+    "question": "How is compassion fatigue defined?",
+    "expected_answer": "Emotional and physical exhaustion resulting from providing empathetic care to those experiencing trauma or suffering.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 35,
+        "evidence": "compassion fatigue is the emotional and physical exhaustion that results from providing empathetic care to those experiencing trauma or suffering.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p035:c005"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "example",
+    "question": "How did patient-centered care help the 67-year-old patient with type 2 diabetes?",
+    "expected_answer": "It enhanced her treatment adherence, giving better blood sugar control and improved overall health.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 40,
+        "evidence": "This patient-centered approach enhances her treatment adherence, resulting in better blood sugar control and improved overall health.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p040:c000"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "metadata_filter",
+    "question": "During evaluation, when is a postsurgical pain management plan considered effective?",
+    "expected_answer": "When the patient reports pain of 3 or lower on a 0-10 scale and pain behaviors like grimacing have decreased.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 44,
+        "evidence": "If the patient reports a pain level of 3 or lower, and pain behaviors like grimacing have decreased, the pain management plan is considered effective.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p044:c002"
+        ]
+      }
+    ],
+    "origin": "day6",
+    "filter": {
+      "section": "2.3"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "metadata_filter",
+    "question": "What do beneficence and nonmaleficence require?",
+    "expected_answer": "In research: promote the well-being of participants (beneficence) and minimize any potential harm (nonmaleficence).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 14,
+        "evidence": "Nursing researchers have an ethical obligation to promote the well-being of participants (beneficence) and minimize any potential harm (nonmaleficence).",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p014:c007"
+        ]
+      }
+    ],
+    "origin": "day6",
+    "filter": {
+      "section": "1.2"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "metadata_filter",
+    "question": "What happens during the assessment phase?",
+    "expected_answer": "Gathering data about the patient's health status: physical, psychological, social, and cultural aspects.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 22,
+        "evidence": "The assessment phase involves gathering data about the patient's health status, including physical, psychological, social, and cultural aspects",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p022:c000"
+        ]
+      }
+    ],
+    "origin": "day6",
+    "filter": {
+      "chapter": 1
+    }
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "condition",
+    "question": "Which tasks is a registered nurse not allowed to delegate?",
+    "expected_answer": "Tasks involving nursing judgment, critical decision-making, or clinical reasoning, such as initial assessment, evaluation, teaching, and advanced training.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 48,
+        "evidence": "the RN may not delegate tasks related to making nursing judgments, critical decision-making, or clinical reasoning such as initial assessment, evaluation, teaching, and advanced training.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p048:c001"
+        ]
+      },
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 48,
+        "evidence": "It may not be a task related to clinical reasoning, nursing judgment, or critical decision-making.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p048:c003"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "condition",
+    "question": "Why should basic care for a critically unstable patient not be delegated?",
+    "expected_answer": "The nurse should do it because the patient's condition may change rapidly.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 49,
+        "evidence": "delegation of basic care to a critically unstable patient would not be appropriate; this task should be performed by the nurse in case the patient's condition changes rapidly.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p049:c000"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "paraphrase",
+    "question": "What is meant by a simplified referral?",
+    "expected_answer": "A straightforward process with minimal administrative steps in which a provider directs a patient to another specialist or service.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 53,
+        "evidence": "A simplified referral in health care is a straightforward process where a healthcare provider recommends or directs a patient to see another healthcare specialist or receive specific medical services",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p053:c002"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "direct",
+    "question": "What five components does the ADPIE nursing process consist of?",
+    "expected_answer": "Assessment, diagnosis, planning, implementation, and evaluation.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 21,
+        "evidence": "The five components of the nursing process are: assessment, diagnosis, planning, implementation, and evaluation",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p021:c003"
+        ]
+      }
+    ],
+    "origin": "day6"
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "metadata_filter",
+    "question": "How should healthcare professionals communicate with each other?",
+    "expected_answer": "Clearly, openly, and respectfully, sharing relevant information, observations, and recommendations.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 52,
+        "evidence": "Healthcare professionals must communicate clearly, openly, and respectfully with each other, sharing relevant information, observations, and recommendations.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p052:c006"
+        ]
+      }
+    ],
+    "origin": "day6",
+    "filter": {
+      "section": "2.4"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "metadata_filter",
+    "question": "Who is called the founder of modern nursing, and what did she emphasize?",
+    "expected_answer": "Florence Nightingale; proper sanitation, hygiene, and evidence-based practice.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 30,
+        "evidence": "Nightingale, an Englishwoman who is often referred to as the founder of modern nursing, revolutionized the profession by emphasizing the importance of proper sanitation, hygiene, and evidence-based practice",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p030:c005"
+        ]
+      }
+    ],
+    "origin": "day6",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "What does the textbook call a patient's ability to restore their psychological balance after it has been disrupted?",
+    "expected_answer": "A coping strategy (the ability to institute, maintain, and regain psychological homeostasis).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 3,
+        "evidence": "The patient's ability to institute, maintain, and regain psychological homeostasis when this homeostasis is disrupted for one reason or another is called coping strategy.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p003:c008"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "direct",
+    "question": "Which groups are given as examples of at-risk populations in nursing research?",
+    "expected_answer": "Children, older adults, individuals with cognitive impairments, and those with limited decision-making capacity.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 15,
+        "evidence": "This includes children, older adults, individuals with cognitive impairments, or those with limited decision-making capacity.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p015:c000"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "direct",
+    "question": "How do nurses validate the data collected during an assessment?",
+    "expected_answer": "By comparing and cross-referencing information from multiple sources: the patient, family members, the healthcare team, and medical records.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 23,
+        "evidence": "Nurses compare and cross-reference the information obtained from multiple sources, such as the patient, family members, healthcare team, and medical records.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p023:c002"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "condition",
+    "question": "If reassessment shows the patient's outcomes have not been met, what should the nurse do with the plan of care?",
+    "filter": {
+      "section": "1.3"
+    },
+    "expected_answer": "Revise the plan by identifying new interventions or modifying existing ones (the plan is only concluded when outcomes are achieved).",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 28,
+        "evidence": "if the outcomes have not been met, the nurse revises the plan by identifying new interventions or modifying existing ones",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p028:c003"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "table",
+    "question": "Which proposed legislation would fund more nursing faculty to address the nursing shortage?",
+    "expected_answer": "H.R. 851/S. 246, the Future Advancement of Academic Nursing (FAAN) Act.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 34,
+        "evidence": "the Future Advancement of Academic Nursing (FAAN) Act",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p034:c001"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "type": "direct",
+    "question": "What does shared decision-making involve in patient-centered care?",
+    "expected_answer": "Providing information, discussing treatment options, and jointly deciding on the best course of action with the patient as a member of their own healthcare team.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 38,
+        "evidence": "Shared decision-making empowers patients to actively participate in their care by providing information, discussing treatment options, and jointly deciding on the best course of action",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p038:c002"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "type": "example",
+    "question": "In the emergency department story, why did the nurse refuse to interpret a brain MRI for a worried family member?",
+    "expected_answer": "Interpreting radiological images such as MRIs is outside the scope of nursing practice; it needs specialized training (radiologists), so the nurse arranged for a qualified specialist to review it.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 47,
+        "evidence": "interpreting radiological images, such as MRIs, fell outside the scope of my nursing practice",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p047:c004"
+        ]
+      }
+    ],
+    "origin": "day7"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How does collaborative care lower healthcare costs?",
+    "expected_answer": "By avoiding unnecessary tests, procedures, and consultations and delegating tasks to the most appropriate team members, optimizing resource allocation.",
+    "gold": [
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 54,
+        "evidence": "Collaboration also helps avoid unnecessary tests, procedures, and consultations, reducing healthcare costs and optimizing resource allocation.",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p054:c005"
+        ]
+      },
+      {
+        "source_id": "openstax-clinical-nursing-skills",
+        "page": 54,
+        "evidence": "it often results in reduced costs of care as unnecessary tests or treatments can be minimized through shared decision-making and resource optimization",
+        "chunk_ids": [
+          "openstax-clinical-nursing-skills:para800:p054:c001"
+        ]
+      }
+    ],
+    "origin": "day7"
+  }
+]

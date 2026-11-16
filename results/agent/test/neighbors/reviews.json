@@ -1,0 +1,114 @@
+[
+  {
+    "query_id": "t01",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "reason": "Đúng tên 'coping strategy' nhưng thêm định nghĩa 'actions or thought processes used to meet stressful situations' KHÔNG có trong sách (kiến thức ngoài).",
+    "context_grade": 2,
+    "context_reason": "p003:c008 trong context, đủ định nghĩa + nguồn/trang."
+  },
+  {
+    "query_id": "t02",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu).",
+    "context_grade": 2,
+    "context_reason": "p015:c000 trong context, đủ danh sách 4 nhóm."
+  },
+  {
+    "query_id": "t03",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu).",
+    "context_grade": 2,
+    "context_reason": "p023:c002 trong context, đủ 4 nguồn đối chiếu."
+  },
+  {
+    "query_id": "t04",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu).",
+    "context_grade": 2,
+    "context_reason": "p028:c003 trong context, có cả điều kiện 'not met' và 'achieved'."
+  },
+  {
+    "query_id": "t05",
+    "answerable": true,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu).",
+    "context_grade": 2,
+    "context_reason": "p034:c001 trong context; bảng bị trích thành dòng rời nhưng tên đạo luật và mục đích nằm cạnh nhau."
+  },
+  {
+    "query_id": "t06",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu).",
+    "context_grade": 2,
+    "context_reason": "p038:c002 trong context, đủ 3 thành phần."
+  },
+  {
+    "query_id": "t07",
+    "answerable": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý; mọi khẳng định đều có trong chunk được trích (đã đọc đối chiếu).",
+    "context_grade": 2,
+    "context_reason": "p047:c004 (+c005 lý do chuyên môn) trong context."
+  },
+  {
+    "query_id": "t08",
+    "answerable": true,
+    "citation_support": [
+      true,
+      false
+    ],
+    "answer_grade": 2,
+    "reason": "Đủ các cơ chế (tránh xét nghiệm, tối ưu nguồn lực, delegation) đều có trong p054:c005/c006; nhưng [p054:c006] gắn với ý delegation, mà delegation nằm ở c005 -> citation c006 chấm không hỗ trợ.",
+    "context_grade": 2,
+    "context_reason": "p054:c001 và p054:c005 (cả hai evidence thay thế) trong context."
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã search (1 lượt) rồi từ chối, không thêm khẳng định. Continuing education appears only as an example in the table of practice standards (p45); license renewal requirements are not covered."
+  },
+  {
+    "query_id": "u05",
+    "answerable": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã search (1 lượt) rồi từ chối, không thêm khẳng định. Table 2.1 (p34) says the act would 'hold them accountable' but states no fines or penalties."
+  },
+  {
+    "query_id": "u06",
+    "answerable": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã search (3 lượt) rồi từ chối, không thêm khẳng định. Interprofessional communication is discussed (section 2.4) but SBAR is never mentioned."
+  }
+]
