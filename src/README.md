@@ -17,6 +17,7 @@ Báo cáo: [report/individual/2A202604097_PhamMinhTam.md](../report/individual/2
 | `run_agent.py` | Chạy agent trên 1 split; test bị chặn nếu chưa có `results/agent/CHOSEN.json` |
 | `show_trace.py` | In trace để chấm nhãn thủ công |
 | `report_tables.py` | Ghép nhãn thủ công (qua `starter/agent_metrics.aggregate`) → bảng agent |
+| `app.py` | Giao diện web local để hỏi thử agent: `python -m src.app` → http://127.0.0.1:8765 (không lưu vào `results/`) |
 
 ## Chạy lại
 
